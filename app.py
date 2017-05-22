@@ -5,16 +5,16 @@ from flask import Flask, render_template, request, jsonify
 import lxml.etree
 app = Flask(__name__)
 STATIC = 'static/xml/'
-
+NS = {'xmlns': 'http://www.tei-c.org/ns/1.0'}
 
 @app.route('/initialize')
 def initialize():
     f_and_t = {'spangrp': []}
-    files = glob.glob(STATIC + '*.xml')
+    files = glob.glob('static/xml/' + '*.xml')
 
     # get the different type of span
     doc = lxml.etree.parse(files[0])
-    for t in doc.xpath('//xmlns:spanGrp', namespaces={'xmlns': 'http://www.tei-c.org/ns/1.0'}):
+    for t in doc.xpath('//xmlns:spanGrp', namespaces=NS):
         f_and_t['spangrp'].append(t.get('type'))
 
     # get files of the corpus
@@ -40,7 +40,7 @@ def inject_annotations(doc, target):
     text = ""
     cpt = 1
     is_end = True
-    for w in doc.xpath('//xmlns:text//xmlns:w', namespaces={'xmlns': 'http://www.tei-c.org/ns/1.0'}):
+    for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
         if target and w.xpath('@xml:id')[0] in target[0]:
             if is_end:
                 text += "<w value=" + str(cpt) + ">" + w.text
@@ -62,7 +62,7 @@ def parse_annotation(doc, s_type, target):
     info = {}
     cpt = 1
     for s in doc.xpath('//xmlns:spanGrp[@type = \'' + s_type + '\']/xmlns:span',
-                       namespaces={'xmlns': 'http://www.tei-c.org/ns/1.0'}):
+                       namespaces=NS):
         list_t = []
         info[cpt] = "<p> lemma : " + s.get("lemma") + "</p>" + "<p> corresp : " + s.get("corresp") + "</p>"
         if s_type == "wordForms":
