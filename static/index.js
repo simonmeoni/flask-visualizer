@@ -23,7 +23,9 @@ $(document).ready(function() {
     });
 
     $('.button--next').click(function(){
+        selected.removeClass("tagged--selected")
         selected = $(".tagged[value = '" + id +"' ]").next()
+        selected.addClass("tagged--selected")
         if(selected.html() == undefined){
             selected = $('.tagged').last()
         }
@@ -31,7 +33,9 @@ $(document).ready(function() {
     });
 
     $('.button--prev').click(function(){
+        selected.removeClass("tagged--selected")
         selected = $(".tagged[value = '" + id +"' ]").prev()
+        selected.addClass("tagged--selected")
         if(selected.html() == undefined){
             selected = $('.tagged').first()
         }
@@ -55,9 +59,10 @@ $(document).ready(function() {
             json_id = data.result
             $('.text').remove()
             $('.occurrence').remove()
-            $('body').append("<p class=\"text\">" + json_id["text"] + "</p>")
-            $('body').append("<div class=\"occurrence\"></div>")
+            $('.root-container').append("<p class=\"text\">" + json_id["text"] + "</p>")
+            $('.root-container').append("<div class=\"occurrence\"></div>")
             selected = $('.tagged').first()
+            selected.addClass("tagged--selected")
             id = $('.tagged').first().attr('value')
             $('.occurrence').append("<h2 class=\"title occurrence__title\">info : </h2>")
             $('.occurrence').append("<p class=\"text occurrence__text\">" + selected.html() + "</p>")

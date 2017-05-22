@@ -1,19 +1,54 @@
+.root-container{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    margin: 2cm 1cm 3cm 1cm;
+}
+
 .menu {}
-.button{}
+.selector{
+    order: -3;
+}
+
+.button{
+}
+
 .occurrence{}
 
 .title{}
 
 .occurrence__title{}
 
-.text{}
-.occurrence__text{}
+.text{
+    order: -2;
+    line-height: 200%
+}
 
-.information{}
+.occurrence__text{
+    font-style: italic;
+}
+
+.information {}
 .occurrence__information{}
 .occurrence__words{}
+.occurrence {
+}
 
 .pos{}
 .corresp{}
+
 .tagged{
+    
+    background-color:#f0e1f2;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    order: -1;
+    justify-content:space-around;
+}
+
+.tagged--selected {
+    border: 1px solid black;
 }

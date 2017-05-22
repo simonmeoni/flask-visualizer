@@ -8,25 +8,35 @@
         $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
     </script>
     <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='style.css') }}">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'Skeleton-2.0.4/css/normalize.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename = 'Skeleton-2.0.4/css/skeleton.css')}}">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 <body>
     <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
-
-    <div class="selector">
-        <h2 class="title selector__title">annotations :</h2>
-        <select class="menu selector__menu--annotation"></select>
-        <h2 class="title selector__title">fichier :</h2>
-        <select class="menu selector__menu--file"></select>
+    <div class="root-container">
+        <div class="selector">
+            <p class="title selector__title">annotations : 
+                <select class="menu selector__menu--annotation"></select>
+            </p>
+            <p class="title selector__title">fichier :
+                <select class="menu selector__menu--file"></select>
+            </p>
+        </div>
+        <div class="occurrence">
+            <h2 class="title title__occurrence">info :</h2>
+            <p class="text occurrence__text"></p>
+            <div class="information occurence__information"></div>
+        </div>
+        <div class="text"></div>
+        <div class="button-container">
+            <p class="button button--prev button-container__button--prev">précédent</p>
+            <p class="button button--next button-container__button--next">suivant</p>
+        </div>
     </div>
-
-    <p class="text"></p>
-
-    <div class="occurrence">
-        <h2 class="title title__occurrenc">info :</h2>
-        <p class="text occurrence__text"></p>
-        <div class="information occurence__information"></div>
-    </div>
-    <button class="button button--prev">précédent</button>
-    <button class="button button--next">suivant</button>
 </body>
 </html>
