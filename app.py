@@ -43,14 +43,14 @@ def inject_annotations(doc, target):
     for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
         if target and w.xpath('@xml:id')[0] in target[0]:
             if is_end:
-                text += "<w value=" + str(cpt) + ">" + w.text
+                text += "<data class=\"tagged text__tagged\" value=" + str(cpt) + ">" + w.text
             else:
                 text += " " + w.text + " "
             target[0].pop(0)
             is_end = False
             if not target[0]:
                 target.pop(0)
-                text += "</w> "
+                text += "</data> "
                 cpt += 1
                 is_end = True
         else:
@@ -64,9 +64,10 @@ def parse_annotation(doc, s_type, target):
     for s in doc.xpath('//xmlns:spanGrp[@type = \'' + s_type + '\']/xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = "<p> lemma : " + s.get("lemma") + "</p>" + "<p> corresp : " + s.get("corresp") + "</p>"
+        info[cpt] = "<p class=\"p information__p\"> lemma : " + s.get("lemma") + "</p>" + "<p class=\"p information__p\">" +\
+                    " corresp : " + s.get("corresp") + "</p>"
         if s_type == "wordForms":
-            info[cpt] += "<p> pos : " + s.get('pos') + "</p>"
+            info[cpt] += "<p class=\"p information__p\"> pos : " + s.get('pos') + "</p>"
         cpt += 1
         for t in s.get('target').split(" "):
             list_t.append(t[1:])
