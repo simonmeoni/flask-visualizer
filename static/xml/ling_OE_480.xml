@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://standoff.proposal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Deux concepts d'habitualité</title>
+        <author>
+          <persName>
+            <forename>Nora</forename>
+            <surname>Boneh</surname>
+          </persName>
+          <affiliation>
+            <s>Université Hébraïque de Jérusalem</s>
+          </affiliation>
+        </author>
+        <author>
+          <persName>
+            <forename>Edit</forename>
+            <surname>Doron</surname>
+          </persName>
+          <affiliation>
+            <s>Université Hébraïque de Jérusalem</s>
+          </affiliation>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+        <date when="2012-06-01">2012-06-01</date>
+        <availability>
+          <p>© Presses universitaires de Vincennes</p>
+        </availability>
+        <idno type="url">http://rlv.revues.org/1732</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title/>
+            <respStmt>
+              <resp>auteur</resp>
+              <name>Nora Boneh</name>
+            </respStmt>
+            <respStmt>
+              <resp>auteur</resp>
+              <name>Edit Doron</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher/>
+            <date>2008-06-01</date>
+            <idno type="pp">113-138</idno>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="1.0" ident="Lodel">
+          <label>Lodel</label>
+          <desc>
+            <ref>We use TEI</ref>
+          </desc>
+        </application>
+      </appInfo>
+      <tagsDecl>
+        <rendition xml:id="T1" scheme="css">text-decoration:line-through</rendition>
+        <rendition xml:id="T2" scheme="css">font-variant:small-caps;text-decoration:underline</rendition>
+        <rendition xml:id="T3" scheme="css">font-variant:small-caps</rendition>
+        <rendition xml:id="T4" scheme="css">text-transform:uppercase</rendition>
+        <rendition xml:id="T5" scheme="css">text-transform:uppercase;text-decoration:underline;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">fr</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="keyword" xml:lang="en">
+          <list>
+            <item>habituality</item>
+            <item>grammatical aspect</item>
+            <item>modality</item>
+          </list>
+        </keywords>
+        <keywords scheme="keyword" xml:lang="fr">
+          <list>
+            <item>habitualité</item>
+            <item>aspect grammatical</item>
+            <item>modalité</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <ns2:stdf>
+    <ns2:annotations>
+      <spanGrp type="wordForms">
+        <span target="#t1" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t2" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t3" lemma="article" pos="NOM" corresp="#glawi-16616"/>
+        <span target="#t4" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t5" lemma="il" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t6" lemma="être" pos="VER:futu" corresp="#glawi-132384"/>
+        <span target="#t7" lemma="proposer" pos="VER:pper" corresp="#glawi-111138"/>
+        <span target="#t8" lemma="que" pos="KON" corresp="#noGlawi"/>
+        <span target="#t9" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t10" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t11" lemma="naturel" pos="ADJ" corresp="#glawi-109208"/>
+        <span target="#t12" lemma="exprimer" pos="VER:pres" corresp="#glawi-21771"/>
+        <span target="#t13" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t14" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t15" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t16" lemma="habitualité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t17" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t18" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t19" lemma="un" pos="NOM" corresp="#glawi-16588"/>
+        <span target="#t20" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t21" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t22" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t23" lemma="gnomique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t24" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t25" lemma="récurrence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t26" lemma="régulier" pos="ADJ" corresp="#glawi-20950"/>
+        <span target="#t27" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t28" lemma="événement" pos="NOM" corresp="#glawi-87821"/>
+        <span target="#t29" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t30" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t31" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t32" lemma="autre" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t33" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t34" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t35" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t36" lemma="aspectuel" pos="ADJ" corresp="#glawi-97878"/>
+        <span target="#t37" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t38" lemma="récurrence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t39" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t40" lemma="événement" pos="NOM" corresp="#glawi-87821"/>
+        <span target="#t41" lemma="comme" pos="KON" corresp="#noGlawi"/>
+        <span target="#t42" lemma="point" pos="NOM" corresp="#glawi-18502"/>
+        <span target="#t43" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t44" lemma="vue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t45" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t46" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t47" lemma="épisode" pos="NOM" corresp="#glawi-93398"/>
+        <span target="#t48" lemma="singulier" pos="ADJ" corresp="#glawi-16653"/>
+        <span target="#t49" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t50" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t51" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t52" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t53" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t54" lemma="modéliser" pos="VER:pper" corresp="#glawi-145188"/>
+        <span target="#t55" lemma="comme" pos="KON" corresp="#noGlawi"/>
+        <span target="#t56" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t57" lemma="opérateur" pos="NOM" corresp="#glawi-16744"/>
+        <span target="#t58" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t59" lemma="habitulalité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t60" lemma="distinct" pos="ADJ" corresp="#glawi-85633"/>
+        <span target="#t61" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t62" lemma="hab" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t63" lemma="mod" pos="NOM" corresp="#glawi-75400"/>
+        <span target="#t64" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t65" lemma="hab" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t66" lemma="asp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t67" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t68" lemma="avoir" pos="VER:ppre" corresp="#glawi-16676"/>
+        <span target="#t69" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t70" lemma="commun" pos="NOM" corresp="#glawi-90387"/>
+        <span target="#t71" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t72" lemma="récurrence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t73" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t74" lemma="événement" pos="NOM" corresp="#glawi-87821"/>
+        <span target="#t75" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t76" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t77" lemma="période" pos="NOM" corresp="#glawi-110203"/>
+        <span target="#t78" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t79" lemma="temps" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t80" lemma="spécifier" pos="VER:pper" corresp="#glawi-113365"/>
+        <span target="#t81" lemma="comme" pos="KON" corresp="#noGlawi"/>
+        <span target="#t82" lemma="contextuellement" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t83" lemma="longue" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t84" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t85" lemma="il" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t86" lemma="se" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t87" lemma="distinguer" pos="VER:pres" corresp="#glawi-21763"/>
+        <span target="#t88" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t89" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t90" lemma="position" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t91" lemma="syntaxique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t92" lemma="que" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t93" lemma="il" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t94" lemma="occuper" pos="VER:pres" corresp="#glawi-17190"/>
+        <span target="#t95" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t96" lemma="ainsi" pos="KON" corresp="#noGlawi"/>
+        <span target="#t97" lemma="que" pos="KON" corresp="#noGlawi"/>
+        <span target="#t98" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t99" lemma="leur" pos="DET:POS" corresp="#noGlawi"/>
+        <span target="#t100" lemma="sémantique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t101" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t102" lemma="hab" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t103" lemma="mod" pos="NOM" corresp="#glawi-75400"/>
+        <span target="#t104" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t105" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t106" lemma="adverbe" pos="NOM" corresp="#glawi-16938"/>
+        <span target="#t107" lemma="modifier" pos="VER:ppre" corresp="#glawi-16863"/>
+        <span target="#t108" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t109" lemma="vp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t110" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t111" lemma="tandis" pos="KON" corresp="#noGlawi"/>
+        <span target="#t112" lemma="que" pos="KON" corresp="#noGlawi"/>
+        <span target="#t113" lemma="hab" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t114" lemma="asp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t115" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t116" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t117" lemma="tête" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t118" lemma="aspectuel" pos="ADJ" corresp="#glawi-97878"/>
+        <span target="#t119" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t120" lemma="il" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t121" lemma="être" pos="VER:futu" corresp="#glawi-132384"/>
+        <span target="#t122" lemma="démontrer" pos="VER:pper" corresp="#glawi-91661"/>
+        <span target="#t123" lemma="que" pos="KON" corresp="#noGlawi"/>
+        <span target="#t124" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t125" lemma="anglais" pos="ADJ" corresp="#glawi-16570"/>
+        <span target="#t126" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t127" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t128" lemma="hébreu" pos="NOM" corresp="#glawi-20223"/>
+        <span target="#t129" lemma="moderne" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t130" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t131" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t132" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t133" lemma="qui" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t134" lemma="grammaticaliser" pos="VER:pres" corresp="#glawi-10323"/>
+        <span target="#t135" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t136" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t137" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t138" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t139" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t140" lemma="forme" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t141" lemma="verbal" pos="ADJ" corresp="#glawi-86110"/>
+        <span target="#t142" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t143" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t144" lemma="un" pos="NOM" corresp="#glawi-16588"/>
+        <span target="#t145" lemma="périphrastique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t146" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t147" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t148" lemma="autre" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t149" lemma="simple" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t150" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t151" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t152" lemma="article" pos="NOM" corresp="#glawi-16616"/>
+        <span target="#t153" lemma="montrer" pos="VER:pres" corresp="#glawi-18576"/>
+        <span target="#t154" lemma="comment" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t155" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t156" lemma="analyse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t157" lemma="proposer" pos="VER:pper" corresp="#glawi-111138"/>
+        <span target="#t158" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t159" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t160" lemma="syntaxe" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t161" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t162" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t163" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t164" lemma="sémantique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t165" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t166" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t167" lemma="opérateur" pos="NOM" corresp="#glawi-16744"/>
+        <span target="#t168" lemma="rendre" pos="VER:pres" corresp="#glawi-16728"/>
+        <span target="#t169" lemma="compte" pos="NOM" corresp="#glawi-18801"/>
+        <span target="#t170" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t171" lemma="propriété" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t172" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t173" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t174" lemma="forme" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t175" lemma="habituel" pos="ADJ" corresp="#glawi-20009"/>
+        <span target="#t176" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t177" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t178" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+      </spanGrp>
+      <spanGrp type="candidatsTermes">
+        <interpGrp>
+          <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+          <interp xml:id="DM2">Occurrence du candidat terme validée au niveau scientifique et syntaxique</interp>
+          <interp xml:id="DM3">Occurrence du candidat terme validée au niveau disciplinaire, scientifique et syntaxique</interp>
+          <interp xml:id="DM4">Occurrence du candidat terme validée sur tous les niveaux d'annotation. Elle est validée au niveau terminologique</interp>
+          <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+        </interpGrp>
+        <interpGrp>
+          <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
+          <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
+        </interpGrp>
+        <span target="#t10 #t11" lemma="langues naturelles" corresp="#TS2.0-entry-501-#TS1.4-entry-4935268" ana="#noDM #DAOn"/>
+        <span target="#t23" lemma="gnomique" corresp="#TS2.0-entry-25586" ana="#noDM #noDA"/>
+        <span target="#t25" lemma="récurrence" corresp="#TS2.0-entry-7160-#TS1.4-entry-299720" ana="#noDM #DAOff"/>
+        <span target="#t36" lemma="aspectuel" corresp="#TS2.0-entry-24701-#TS1.4-entry-929795" ana="#noDM #DAOff"/>
+        <span target="#t38" lemma="récurrence" corresp="#TS2.0-entry-7160-#TS1.4-entry-299720" ana="#noDM #DAOff"/>
+        <span target="#t62" lemma="Hab" corresp="#TS2.0-entry-207331" ana="#noDM #noDA"/>
+        <span target="#t63" lemma="MOD" corresp="#TS2.0-entry-112989" ana="#noDM #noDA"/>
+        <span target="#t65" lemma="Hab" corresp="#TS2.0-entry-207331" ana="#noDM #noDA"/>
+        <span target="#t66" lemma="ASP" corresp="#TS2.0-entry-22888-#TS1.4-entry-428557" ana="#noDM #noDA"/>
+        <span target="#t72" lemma="récurrence" corresp="#TS2.0-entry-7160-#TS1.4-entry-299720" ana="#noDM #DAOff"/>
+        <span target="#t82" lemma="contextuellement" corresp="#TS2.0-entry-63856" ana="#noDM #noDA"/>
+        <span target="#t90 #t91" lemma="position syntaxique" corresp="#TS2.0-entry-87464-#TS1.4-entry-5265745" ana="#noDM #noDA"/>
+        <span target="#t91" lemma="syntaxique" corresp="#TS2.0-entry-510-#TS1.4-entry-836449" ana="#noDM #DAOff"/>
+        <span target="#t100" lemma="sémantique" corresp="#TS2.0-entry-13713-#TS1.4-entry-838547" ana="#noDM #DAOff"/>
+        <span target="#t102" lemma="Hab" corresp="#TS2.0-entry-207331" ana="#noDM #noDA"/>
+        <span target="#t103" lemma="MOD" corresp="#TS2.0-entry-112989" ana="#noDM #noDA"/>
+        <span target="#t106" lemma="adverbe" corresp="#TS2.0-entry-1661-#TS1.4-entry-30946" ana="#noDM #DAOn"/>
+        <span target="#t109" lemma="VP" corresp="#TS2.0-entry-32223" ana="#noDM #noDA"/>
+        <span target="#t113" lemma="Hab" corresp="#TS2.0-entry-207331" ana="#noDM #noDA"/>
+        <span target="#t114" lemma="ASP" corresp="#TS2.0-entry-22888-#TS1.4-entry-428557" ana="#noDM #noDA"/>
+        <span target="#t118" lemma="aspectuelle" corresp="#TS2.0-entry-24701-#TS1.4-entry-929795" ana="#noDM #DAOff"/>
+        <span target="#t140 #t141" lemma="formes verbales" corresp="#TS2.0-entry-19345-#TS1.4-entry-4891934" ana="#noDM #DAOff"/>
+        <span target="#t141" lemma="verbales" corresp="#TS2.0-entry-3982-#TS1.4-entry-13334" ana="#noDM #DAOff"/>
+        <span target="#t145" lemma="périphrastique" corresp="#TS2.0-entry-36682" ana="#noDM #noDA"/>
+        <span target="#t156 #t157" lemma="analyse proposée" corresp="#TS2.0-entry-4228" ana="#noDM #noDA"/>
+        <span target="#t160" lemma="syntaxe" corresp="#TS2.0-entry-13727-#TS1.4-entry-711810" ana="#noDM #DAOn"/>
+        <span target="#t164" lemma="sémantique" corresp="#TS2.0-entry-13713-#TS1.4-entry-838547" ana="#noDM #DAOff"/>
+      </spanGrp>
+      <spanGrp type="syntagmesDefinis">
+        <span target="#t115 #t116 #t117" lemma="être une tête" corresp="#syntita-43876"/>
+      </spanGrp>
+      <spanGrp type="lexiquesTransdisciplinaires">
+        <span target="#t42 #t43 #t44" lemma="point de vue" corresp="#transdisc-159"/>
+        <span target="#t111 #t112" lemma="tandis que" corresp="#transdisc-2404"/>
+      </spanGrp>
+    </ns2:annotations>
+  </ns2:stdf>
+  <text>
+    <div type="abstract" xml:lang="fr">
+      <p>
+        <w xml:id="t1">Dans</w>
+        <w xml:id="t2">cet</w>
+        <w xml:id="t3">article</w>
+        <w xml:id="t4">,</w>
+        <w xml:id="t5">il</w>
+        <w xml:id="t6">sera</w>
+        <w xml:id="t7">proposé</w>
+        <w xml:id="t8">que</w>
+        <w xml:id="t9">les</w>
+        <w xml:id="t10">langues</w>
+        <w xml:id="t11">naturelles</w>
+        <w xml:id="t12">expriment</w>
+        <w xml:id="t13">deux</w>
+        <w xml:id="t14">concepts</w>
+        <w xml:id="t15">d'</w>
+        <w xml:id="t16">habitualité</w>
+        <w xml:id="t17">.</w>
+        <w xml:id="t18">L'</w>
+        <w xml:id="t19">un</w>
+        <w xml:id="t20">est</w>
+        <w xml:id="t21">le</w>
+        <w xml:id="t22">concept</w>
+        <w xml:id="t23">gnomique</w>
+        <w xml:id="t24">de</w>
+        <w xml:id="t25">récurrence</w>
+        <w xml:id="t26">régulière</w>
+        <w xml:id="t27">d'</w>
+        <w xml:id="t28">événements</w>
+        <w xml:id="t29">,</w>
+        <w xml:id="t30">et</w>
+        <w xml:id="t31">l'</w>
+        <w xml:id="t32">autre</w>
+        <w xml:id="t33">est</w>
+        <w xml:id="t34">le</w>
+        <w xml:id="t35">concept</w>
+        <w xml:id="t36">aspectuel</w>
+        <w xml:id="t37">de</w>
+        <w xml:id="t38">récurrence</w>
+        <w xml:id="t39">d'</w>
+        <w xml:id="t40">événements</w>
+        <w xml:id="t41">comme</w>
+        <w xml:id="t42">point</w>
+        <w xml:id="t43">de</w>
+        <w xml:id="t44">vue</w>
+        <w xml:id="t45">sur</w>
+        <w xml:id="t46">des</w>
+        <w xml:id="t47">épisodes</w>
+        <w xml:id="t48">singuliers</w>
+        <w xml:id="t49">.</w>
+        <w xml:id="t50">Les</w>
+        <w xml:id="t51">deux</w>
+        <w xml:id="t52">concepts</w>
+        <w xml:id="t53">sont</w>
+        <w xml:id="t54">modélisés</w>
+        <w xml:id="t55">comme</w>
+        <w xml:id="t56">deux</w>
+        <w xml:id="t57">opérateurs</w>
+        <w xml:id="t58">d'</w>
+        <w xml:id="t59">habitulalité</w>
+        <w xml:id="t60">distincts</w>
+        <w xml:id="t61">,</w>
+        <w xml:id="t62">Hab</w>
+        <hi rend="sub">
+          <w xml:id="t63">MOD</w>
+        </hi>
+        <w xml:id="t64">et</w>
+        <w xml:id="t65">Hab</w>
+        <hi rend="sub">
+          <w xml:id="t66">ASP</w>
+        </hi>
+        <w xml:id="t67">,</w>
+        <w xml:id="t68">ayant</w>
+        <w xml:id="t69">en</w>
+        <w xml:id="t70">commun</w>
+        <w xml:id="t71">la</w>
+        <w xml:id="t72">récurrence</w>
+        <w xml:id="t73">d'</w>
+        <w xml:id="t74">événements</w>
+        <w xml:id="t75">sur</w>
+        <w xml:id="t76">une</w>
+        <w xml:id="t77">période</w>
+        <w xml:id="t78">de</w>
+        <w xml:id="t79">temps</w>
+        <w xml:id="t80">spécifiée</w>
+        <w xml:id="t81">comme</w>
+        <w xml:id="t82">contextuellement</w>
+        <w xml:id="t83">longue</w>
+        <w xml:id="t84">.</w>
+        <w xml:id="t85">Ils</w>
+        <w xml:id="t86">se</w>
+        <w xml:id="t87">distinguent</w>
+        <w xml:id="t88">par</w>
+        <w xml:id="t89">la</w>
+        <w xml:id="t90">position</w>
+        <w xml:id="t91">syntaxique</w>
+        <w xml:id="t92">qu'</w>
+        <w xml:id="t93">ils</w>
+        <w xml:id="t94">occupent</w>
+        <w xml:id="t95">,</w>
+        <w xml:id="t96">ainsi</w>
+        <w xml:id="t97">que</w>
+        <w xml:id="t98">par</w>
+        <w xml:id="t99">leur</w>
+        <w xml:id="t100">sémantique</w>
+        <w xml:id="t101">.</w>
+        <w xml:id="t102">Hab</w>
+        <hi rend="sub">
+          <w xml:id="t103">MOD</w>
+        </hi>
+        <w xml:id="t104">est</w>
+        <w xml:id="t105">un</w>
+        <w xml:id="t106">adverbe</w>
+        <w xml:id="t107">modifiant</w>
+        <w xml:id="t108">le</w>
+        <w xml:id="t109">VP</w>
+        <w xml:id="t110">,</w>
+        <w xml:id="t111">tandis</w>
+        <w xml:id="t112">que</w>
+        <w xml:id="t113">Hab</w>
+        <hi rend="sub">
+          <w xml:id="t114">ASP</w>
+        </hi>
+        <w xml:id="t115">est</w>
+        <w xml:id="t116">une</w>
+        <w xml:id="t117">tête</w>
+        <w xml:id="t118">aspectuelle</w>
+        <w xml:id="t119">.</w>
+        <w xml:id="t120">Il</w>
+        <w xml:id="t121">sera</w>
+        <w xml:id="t122">démontré</w>
+        <w xml:id="t123">que</w>
+        <w xml:id="t124">l'</w>
+        <w xml:id="t125">anglais</w>
+        <w xml:id="t126">et</w>
+        <w xml:id="t127">l'</w>
+        <w xml:id="t128">hébreu</w>
+        <w xml:id="t129">moderne</w>
+        <w xml:id="t130">sont</w>
+        <w xml:id="t131">deux</w>
+        <w xml:id="t132">langues</w>
+        <w xml:id="t133">qui</w>
+        <w xml:id="t134">grammaticalisent</w>
+        <w xml:id="t135">ces</w>
+        <w xml:id="t136">deux</w>
+        <w xml:id="t137">concepts</w>
+        <w xml:id="t138">par</w>
+        <w xml:id="t139">deux</w>
+        <w xml:id="t140">formes</w>
+        <w xml:id="t141">verbales</w>
+        <w xml:id="t142">,</w>
+        <w xml:id="t143">l'</w>
+        <w xml:id="t144">une</w>
+        <w xml:id="t145">périphrastique</w>
+        <w xml:id="t146">,</w>
+        <w xml:id="t147">l'</w>
+        <w xml:id="t148">autre</w>
+        <w xml:id="t149">simple</w>
+        <w xml:id="t150">.</w>
+        <w xml:id="t151">L'</w>
+        <w xml:id="t152">article</w>
+        <w xml:id="t153">montre</w>
+        <w xml:id="t154">comment</w>
+        <w xml:id="t155">l'</w>
+        <w xml:id="t156">analyse</w>
+        <w xml:id="t157">proposée</w>
+        <w xml:id="t158">de</w>
+        <w xml:id="t159">la</w>
+        <w xml:id="t160">syntaxe</w>
+        <w xml:id="t161">et</w>
+        <w xml:id="t162">de</w>
+        <w xml:id="t163">la</w>
+        <w xml:id="t164">sémantique</w>
+        <w xml:id="t165">de</w>
+        <w xml:id="t166">ces</w>
+        <w xml:id="t167">opérateurs</w>
+        <w xml:id="t168">rend</w>
+        <w xml:id="t169">compte</w>
+        <w xml:id="t170">des</w>
+        <w xml:id="t171">propriétés</w>
+        <w xml:id="t172">des</w>
+        <w xml:id="t173">deux</w>
+        <w xml:id="t174">formes</w>
+        <w xml:id="t175">habituelles</w>
+        <w xml:id="t176">dans</w>
+        <w xml:id="t177">ces</w>
+        <w xml:id="t178">langues</w>
+        <anchor xml:id="idm44965564485904"/>
+        <w xml:id="t179">.</w>
+      </p>
+    </div>
+  </text>
+</TEI>

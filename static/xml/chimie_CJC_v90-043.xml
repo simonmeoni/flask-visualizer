@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://standoff.proposal" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <teiHeader xml:lang="fr">
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Étude cinétique de la N-chloration de l'acide cyanurique en phase aqueuse</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Canadian Journal of Chemistry</publisher>
+        <date type="published" when="1990">1990</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>
+            <persName>
+              <forename type="first">Denise</forename>
+              <surname>Matte</surname>
+            </persName>
+            <affiliation>
+              <orgName type="laboratory">Laboratoire de photochimie appliquée (Unité associée n° 238 du Centre national de la recherche scientifique)</orgName>
+              <orgName type="institution">Université de Nancy I</orgName>
+              <address>
+                <addrLine>Boite postale 239</addrLine>
+                <postCode>54506</postCode>
+                <settlement>Vandoeuvre-les-Nancy CEDEX</settlement>
+                <country key="FR">France</country>
+              </address>
+            </affiliation>
+          </author>
+          <author>
+            <persName>
+              <forename type="first">Bernard</forename>
+              <surname>Solastiouk</surname>
+            </persName>
+            <affiliation>
+              <orgName type="laboratory">Laboratoire de photochimie appliquée (Unité associée n° 238 du Centre national de la recherche scientifique)</orgName>
+              <orgName type="institution">Université de Nancy I</orgName>
+              <address>
+                <addrLine>Boite postale 239</addrLine>
+                <postCode>54506</postCode>
+                <settlement>Vandoeuvre-les-Nancy CEDEX</settlement>
+                <country key="FR">France</country>
+              </address>
+            </affiliation>
+          </author>
+          <author>
+            <persName>
+              <forename type="first">André</forename>
+              <surname>Merlin</surname>
+            </persName>
+            <affiliation>
+              <orgName type="laboratory">Laboratoire de photochimie appliquée (Unité associée n° 238 du Centre national de la recherche scientifique)</orgName>
+              <orgName type="institution">Université de Nancy I</orgName>
+              <address>
+                <addrLine>Boite postale 239</addrLine>
+                <postCode>54506</postCode>
+                <settlement>Vandoeuvre-les-Nancy CEDEX</settlement>
+                <country key="FR">France</country>
+              </address>
+            </affiliation>
+          </author>
+          <author>
+            <persName>
+              <forename type="first">Xavier</forename>
+              <surname>Deglise</surname>
+            </persName>
+            <affiliation>
+              <orgName type="laboratory">Laboratoire de photochimie appliquée (Unité associée n° 238 du Centre national de la recherche scientifique)</orgName>
+              <orgName type="institution">Université de Nancy I</orgName>
+              <address>
+                <addrLine>Boite postale 239</addrLine>
+                <postCode>54506</postCode>
+                <settlement>Vandoeuvre-les-Nancy CEDEX</settlement>
+                <country key="FR">France</country>
+              </address>
+            </affiliation>
+          </author>
+          <title level="a" type="main">Étude cinétique de la N-chloration de l'acide cyanurique en phase aqueuse</title>
+          <title level="j" type="main">Can. J. Chem</title>
+          <biblScope unit="vol">68</biblScope>
+          <biblScope unit="fpage">307</biblScope>
+          <date type="published" when="1990">1990</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords ana="author">
+          <list>
+            <item>
+              <term>kinetics</term>
+            </item>
+            <item>
+              <term>N-chlorination</term>
+            </item>
+            <item>
+              <term>1,3,5-triazine-2,4,6-trione</term>
+            </item>
+            <item>
+              <term>aqueous medium</term>
+            </item>
+            <item>
+              <term>stopped flow</term>
+            </item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <ns2:stdf>
+    <ns2:annotations>
+      <spanGrp type="wordForms">
+        <span target="#t1" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t2" lemma="présenter" pos="VER:pres" corresp="#glawi-132383"/>
+        <span target="#t3" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t4" lemma="étude" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t5" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t6" lemma="mécanisme" pos="NOM" corresp="#glawi-18131"/>
+        <span target="#t7" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t8" lemma="déterminer" pos="VER:pres" corresp="#glawi-92046"/>
+        <span target="#t9" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t10" lemma="constante" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t11" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t12" lemma="vitesse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t13" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t14" lemma="n-chlorations" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t15" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t16" lemma="acide" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t17" lemma="cyanurique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t18" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t19" lemma="milieu" pos="NOM" corresp="#glawi-18387"/>
+        <span target="#t20" lemma="aqueux" pos="ADJ" corresp="#glawi-87672"/>
+        <span target="#t21" lemma="basique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t22" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t23" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t24" lemma="énergie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t25" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t26" lemma="activation" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t27" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t28" lemma="processus" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t29" lemma="mettre" pos="VER:pper" corresp="#glawi-16760"/>
+        <span target="#t30" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t31" lemma="cause" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t32" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t33" lemma="être" pos="VER:pper" corresp="#glawi-132384"/>
+        <span target="#t34" lemma="déterminer" pos="VER:pper" corresp="#glawi-92046"/>
+        <span target="#t35" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t36" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t37" lemma="cinétique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t38" lemma="rapide" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t39" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t40" lemma="être" pos="VER:pper" corresp="#glawi-132384"/>
+        <span target="#t41" lemma="étudier" pos="VER:pper" corresp="#glawi-18218"/>
+        <span target="#t42" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t43" lemma="spectrophotomètre" pos="NOM" corresp="#glawi-104035"/>
+        <span target="#t44" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t45" lemma="écoulement" pos="NOM" corresp="#glawi-92583"/>
+        <span target="#t46" lemma="bloquer" pos="VER:pper" corresp="#glawi-18784"/>
+        <span target="#t47" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t48" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t49" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t50" lemma="domaine" pos="NOM" corresp="#glawi-20946"/>
+        <span target="#t51" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t52" lemma="ph" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t53" lemma="étudier" pos="VER:pper" corresp="#glawi-18218"/>
+        <span target="#t54" lemma="notre" pos="DET:POS" corresp="#noGlawi"/>
+        <span target="#t55" lemma="résultat" pos="NOM" corresp="#glawi-112313"/>
+        <span target="#t56" lemma="expérimental" pos="ADJ" corresp="#glawi-93798"/>
+        <span target="#t57" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t58" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t59" lemma="accord" pos="NOM" corresp="#glawi-20505"/>
+        <span target="#t60" lemma="avec" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t61" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t62" lemma="modèle" pos="NOM" corresp="#glawi-20280"/>
+        <span target="#t63" lemma="cinétique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t64" lemma="comprendre" pos="VER:ppre" corresp="#glawi-18069"/>
+        <span target="#t65" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t66" lemma="contribution" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t67" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t68" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t69" lemma="couple" pos="NOM" corresp="#glawi-85994"/>
+        <span target="#t70" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t71" lemma="processus" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t72" lemma="indiscernable" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t73" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t74" lemma="heure" pos="ABR" corresp="#noGlawi"/>
+        <span target="#t75" lemma="3" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t76" lemma="cy" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t77" lemma="+" pos="SYM" corresp="#noGlawi"/>
+        <span target="#t78" lemma="cio" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t79" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t80" lemma="produit" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t81" lemma="heure" pos="ABR" corresp="#noGlawi"/>
+        <span target="#t82" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t83" lemma="cy" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t84" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t85" lemma="+" pos="SYM" corresp="#noGlawi"/>
+        <span target="#t86" lemma="cloh" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t87" lemma="produit" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t88" lemma="heure" pos="ABR" corresp="#noGlawi"/>
+        <span target="#t89" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t90" lemma="cy" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t91" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t92" lemma="+" pos="SYM" corresp="#noGlawi"/>
+        <span target="#t93" lemma="co" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t94" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t95" lemma="produire" pos="VER:pper" corresp="#glawi-111085"/>
+        <span target="#t96" lemma="hcy" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t97" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t98" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t99" lemma="+" pos="SYM" corresp="#noGlawi"/>
+        <span target="#t100" lemma="cloh" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t101" lemma="produire" pos="VER:pper" corresp="#glawi-111085"/>
+        <span target="#t102" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t103" lemma="valeur" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t104" lemma="limite" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t105" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t106" lemma="constante" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t107" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t108" lemma="vitesse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t109" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t110" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t111" lemma="cas" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t112" lemma="où" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t113" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t114" lemma="pour" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t115" lemma="chaque" pos="PRO:IND" corresp="#noGlawi"/>
+        <span target="#t116" lemma="couple" pos="NOM" corresp="#glawi-85994"/>
+        <span target="#t117" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t118" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t119" lemma="seul" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t120" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t121" lemma="processus" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t122" lemma="participer" pos="VER:pres" corresp="#glawi-109947"/>
+        <span target="#t123" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t124" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t125" lemma="cinétique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t126" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t127" lemma="chloration" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t128" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t129" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t130" lemma="suivante" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t131" lemma=":" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t132" lemma="k" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t133" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t134" lemma="=" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t135" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t136" lemma="5,4" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t137" lemma="x" pos="NOM" corresp="#glawi-18632"/>
+        <span target="#t138" lemma="10" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t139" lemma="&amp;" pos="PUN:cit" corresp="#noGlawi"/>
+        <span target="#t140" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t141" lemma="exp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t142" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t143" lemma="—35500/i?r" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t144" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t145" lemma="m" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t146" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t147" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t148" lemma="s" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t149" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t150" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t151" lemma="k" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t152" lemma="3" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t153" lemma="=" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t154" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t155" lemma="2,0" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t156" lemma="x" pos="NOM" corresp="#glawi-18632"/>
+        <span target="#t157" lemma="10" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t158" lemma="&amp;" pos="PUN:cit" corresp="#noGlawi"/>
+        <span target="#t159" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t160" lemma="exp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t161" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t162" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t163" lemma="36100/rt" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t164" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t165" lemma="m" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t166" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t167" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t168" lemma="s" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t169" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t170" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t171" lemma="¿4" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t172" lemma="=" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t173" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t174" lemma="1,4" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t175" lemma="x" pos="NOM" corresp="#glawi-18632"/>
+        <span target="#t176" lemma="10" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t177" lemma="13" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t178" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t179" lemma="çxp" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t180" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t181" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t182" lemma="55200/rt" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t183" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t184" lemma="m" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t185" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t186" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t187" lemma="s" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t188" lemma="-" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t189" lemma="1" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t190" lemma="k" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t191" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t192" lemma="=" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t193" lemma="2,2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t194" lemma="x" pos="NOM" corresp="#glawi-18632"/>
+        <span target="#t195" lemma="10" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t196" lemma="m" pos="NOM" corresp="#glawi-16942"/>
+        <span target="#t197" lemma="&amp;" pos="PUN:cit" corresp="#noGlawi"/>
+        <span target="#t198" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t199" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t200" lemma="298" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t201" lemma="k" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t202" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t203" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t204" lemma="partir" pos="VER:infi" corresp="#glawi-17594"/>
+        <span target="#t205" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t206" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t207" lemma="valeur" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t208" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t209" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t210" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t211" lemma="pouvoir" pos="VER:pper" corresp="#glawi-132390"/>
+        <span target="#t212" lemma="calculer" pos="VER:infi" corresp="#glawi-89403"/>
+        <span target="#t213" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t214" lemma="constante" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t215" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t216" lemma="vitesse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t217" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t218" lemma="hydrolyse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t219" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t220" lemma="dérivé" pos="NOM" corresp="#glawi-132443"/>
+        <span target="#t221" lemma="monochlorés" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t222" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t223" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t224" lemma="acide" pos="NOM" corresp="#glawi-18712"/>
+        <span target="#t225" lemma="cyanurique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t226" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t227" lemma="mot" pos="NOM" corresp="#glawi-118622"/>
+        <span target="#t228" lemma="clé" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t229" lemma=":" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t230" lemma="cinétique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t231" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t232" lemma="n-chloration" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t233" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t234" lemma="1,3,5-triazine" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t235" lemma="2,4,6-trione" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t236" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t237" lemma="phase" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t238" lemma="aqueux" pos="ADJ" corresp="#glawi-87672"/>
+        <span target="#t239" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t240" lemma="spectrophotométrie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t241" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t242" lemma="écoulement" pos="NOM" corresp="#glawi-92583"/>
+        <span target="#t243" lemma="bloquer" pos="VER:pper" corresp="#glawi-18784"/>
+      </spanGrp>
+      <spanGrp type="candidatsTermes">
+        <interpGrp type="desambiguisation_manuelle">
+          <interp xml:id="noDM">Occurrence du candidat terme non annotée</interp>
+          <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+          <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+          <interp xml:id="DM3">Occurrence du candidat terme validée au niveau syntaxique et disciplinaire</interp>
+          <interp xml:id="DM4">Occurrence du candidat terme validée à tous les niveaux d'annotation. Cette occurrence est considérée comme terminologique</interp>
+        </interpGrp>
+        <span target="#t4 #t5 #t6" corresp="#entry-824" lemma="étude des mécanismes" ana="#noDM"/>
+        <span target="#t4" corresp="#entry-822" lemma="étude" ana="#noDM"/>
+        <span target="#t6" corresp="#entry-673" lemma="mécanismes" ana="#noDM"/>
+        <span target="#t10 #t11 #t12" corresp="#entry-2284" lemma="constantes de vitesse" ana="#noDM"/>
+        <span target="#t10" corresp="#entry-474" lemma="constantes" ana="#noDM"/>
+        <span target="#t12" corresp="#entry-366" lemma="vitesse" ana="#noDM"/>
+        <span target="#t16" corresp="#entry-589" lemma="acide" ana="#noDM"/>
+        <span target="#t17" corresp="#entry-41032" lemma="cyanurique" ana="#noDM"/>
+        <span target="#t19 #t20" corresp="#entry-8075" lemma="milieu aqueux" ana="#noDM"/>
+        <span target="#t19" corresp="#entry-910" lemma="milieu" ana="#noDM"/>
+        <span target="#t20" corresp="#entry-4339" lemma="aqueux" ana="#noDM"/>
+        <span target="#t21" corresp="#entry-267" lemma="basique" ana="#noDM"/>
+        <span target="#t24 #t25 #t26" corresp="#entry-2685" lemma="énergies d'activation" ana="#noDM"/>
+        <span target="#t24" corresp="#entry-2033" lemma="énergies" ana="#noDM"/>
+        <span target="#t26" corresp="#entry-2198" lemma="activation" ana="#noDM"/>
+        <span target="#t28" corresp="#entry-524" lemma="processus" ana="#noDM"/>
+        <span target="#t31" corresp="#entry-4084" lemma="cause" ana="#noDM"/>
+        <span target="#t37" corresp="#entry-2131" lemma="cinétiques" ana="#noDM"/>
+        <span target="#t38" corresp="#entry-938" lemma="rapides" ana="#noDM"/>
+        <span target="#t43" corresp="#entry-4280" lemma="spectrophotomètre" ana="#noDM"/>
+        <span target="#t45" corresp="#entry-33841" lemma="écoulement" ana="#noDM"/>
+        <span target="#t50 #t51 #t52" corresp="#entry-17124" lemma="domaine de pH" ana="#noDM"/>
+        <span target="#t50" corresp="#entry-518" lemma="domaine" ana="#noDM"/>
+        <span target="#t52 #t53" corresp="#entry-48511" lemma="pH étudié" ana="#noDM"/>
+        <span target="#t52" corresp="#entry-269" lemma="pH" ana="#noDM"/>
+        <span target="#t55 #t56" corresp="#entry-316" lemma="résultats expérimentaux" ana="#noDM"/>
+        <span target="#t55" corresp="#entry-314" lemma="résultats" ana="#noDM"/>
+        <span target="#t56" corresp="#entry-315" lemma="expérimentaux" ana="#noDM"/>
+        <span target="#t59" corresp="#entry-421" lemma="accord" ana="#noDM"/>
+        <span target="#t62" corresp="#entry-322" lemma="modèle" ana="#noDM"/>
+        <span target="#t63" corresp="#entry-1996" lemma="cinétique" ana="#noDM"/>
+        <span target="#t66" corresp="#entry-821" lemma="contribution" ana="#noDM"/>
+        <span target="#t69" corresp="#entry-2887" lemma="couples" ana="#noDM"/>
+        <span target="#t71" corresp="#entry-524" lemma="processus" ana="#noDM"/>
+        <span target="#t76" corresp="#entry-41055" lemma="Cy" ana="#noDM"/>
+        <span target="#t80" corresp="#entry-1081" lemma="produits" ana="#noDM"/>
+        <span target="#t83" corresp="#entry-41055" lemma="Cy" ana="#noDM"/>
+        <span target="#t87" corresp="#entry-1081" lemma="produits" ana="#noDM"/>
+        <span target="#t90" corresp="#entry-41055" lemma="Cy" ana="#noDM"/>
+        <span target="#t96" corresp="#entry-41075" lemma="HCy" ana="#noDM"/>
+        <span target="#t100" corresp="#entry-41017" lemma="ClOH" ana="#noDM"/>
+        <span target="#t104" corresp="#entry-3108" lemma="limites" ana="#noDM"/>
+        <span target="#t106 #t107 #t108" corresp="#entry-2284" lemma="constantes de vitesse" ana="#noDM"/>
+        <span target="#t106" corresp="#entry-474" lemma="constantes" ana="#noDM"/>
+        <span target="#t108" corresp="#entry-366" lemma="vitesse" ana="#noDM"/>
+        <span target="#t111" corresp="#entry-432" lemma="cas" ana="#noDM"/>
+        <span target="#t116" corresp="#entry-2887" lemma="couple" ana="#noDM"/>
+        <span target="#t119" corresp="#entry-2432" lemma="seul" ana="#noDM"/>
+        <span target="#t121" corresp="#entry-524" lemma="processus" ana="#noDM"/>
+        <span target="#t125" corresp="#entry-2131" lemma="cinétique" ana="#noDM"/>
+        <span target="#t127" corresp="#entry-5247" lemma="chloration" ana="#noDM"/>
+        <span target="#t130" corresp="#entry-11214" lemma="suivantes" ana="#noDM"/>
+        <span target="#t141" corresp="#entry-3799" lemma="exp" ana="#noDM"/>
+        <span target="#t160" corresp="#entry-3799" lemma="exp" ana="#noDM"/>
+        <span target="#t214 #t215 #t216" corresp="#entry-2284" lemma="constantes de vitesse" ana="#noDM"/>
+        <span target="#t214" corresp="#entry-474" lemma="constantes" ana="#noDM"/>
+        <span target="#t216 #t217 #t218" corresp="#entry-55540" lemma="vitesse d'hydrolyse" ana="#noDM"/>
+        <span target="#t216" corresp="#entry-366" lemma="vitesse" ana="#noDM"/>
+        <span target="#t218" corresp="#entry-6337" lemma="hydrolyse" ana="#noDM"/>
+        <span target="#t220" corresp="#entry-807" lemma="dérivés" ana="#noDM"/>
+        <span target="#t221" corresp="#entry-41076" lemma="monochlorés" ana="#noDM"/>
+        <span target="#t224 #t225" corresp="#entry-40944" lemma="acide cyanurique" ana="#noDM"/>
+        <span target="#t224" corresp="#entry-1391" lemma="acide" ana="#noDM"/>
+        <span target="#t225" corresp="#entry-40943" lemma="cyanurique" ana="#noDM"/>
+        <span target="#t228" corresp="#entry-5987" lemma="clés" ana="#noDM"/>
+        <span target="#t230" corresp="#entry-1996" lemma="cinétique" ana="#noDM"/>
+        <span target="#t237 #t238" corresp="#entry-5401" lemma="phase aqueuse" ana="#noDM"/>
+        <span target="#t237" corresp="#entry-444" lemma="phase" ana="#noDM"/>
+        <span target="#t238" corresp="#entry-4339" lemma="aqueuse" ana="#noDM"/>
+        <span target="#t240" corresp="#entry-25056" lemma="spectrophotométrie" ana="#noDM"/>
+        <span target="#t242" corresp="#entry-33841" lemma="écoulement" ana="#noDM"/>
+      </spanGrp>
+      <spanGrp type="syntagmesDefinis">
+        <span target="#t29 #t30 #t31" lemma="mettre en cause" corresp="#syntita-24305"/>
+        <span target="#t29 #t30 #t31" lemma="mettre en cause" corresp="#syntita-7481"/>
+        <span target="#t29 #t30 #t31" lemma="mettre en cause" corresp="#syntita-91258"/>
+        <span target="#t109 #t110 #t111 #t112" lemma="dans le cas où" corresp="#syntita-53847"/>
+      </spanGrp>
+      <spanGrp type="lexiquesTransdisciplinaires">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+</spanGrp>
+    </ns2:annotations>
+  </ns2:stdf>
+  <text xml:lang="fr">
+    <div type="abstract" xml:lang="fr">
+      <p>
+        <w xml:id="t1">Nous</w>
+        <w xml:id="t2">présentons</w>
+        <w xml:id="t3">une</w>
+        <w xml:id="t4">étude</w>
+        <w xml:id="t5">des</w>
+        <w xml:id="t6">mécanismes</w>
+        <w xml:id="t7">et</w>
+        <w xml:id="t8">déterminons</w>
+        <w xml:id="t9">les</w>
+        <w xml:id="t10">constantes</w>
+        <w xml:id="t11">de</w>
+        <w xml:id="t12">vitesse</w>
+        <w xml:id="t13">des</w>
+        <w xml:id="t14">N-chlorations</w>
+        <w xml:id="t15">d'</w>
+        <w xml:id="t16">acide</w>
+        <w xml:id="t17">cyanurique</w>
+        <w xml:id="t18">en</w>
+        <w xml:id="t19">milieu</w>
+        <w xml:id="t20">aqueux</w>
+        <w xml:id="t21">basique</w>
+        <w xml:id="t22">.</w>
+        <w xml:id="t23">Les</w>
+        <w xml:id="t24">énergies</w>
+        <w xml:id="t25">d'</w>
+        <w xml:id="t26">activation</w>
+        <w xml:id="t27">des</w>
+        <w xml:id="t28">processus</w>
+        <w xml:id="t29">mis</w>
+        <w xml:id="t30">en</w>
+        <w xml:id="t31">cause</w>
+        <w xml:id="t32">ont</w>
+        <w xml:id="t33">été</w>
+        <w xml:id="t34">déterminées</w>
+        <w xml:id="t35">.</w>
+        <w xml:id="t36">Ces</w>
+        <w xml:id="t37">cinétiques</w>
+        <w xml:id="t38">rapides</w>
+        <w xml:id="t39">ont</w>
+        <w xml:id="t40">été</w>
+        <w xml:id="t41">étudiées</w>
+        <w xml:id="t42">sur</w>
+        <w xml:id="t43">spectrophotomètre</w>
+        <w xml:id="t44">à</w>
+        <w xml:id="t45">écoulement</w>
+        <w xml:id="t46">bloqué</w>
+        <w xml:id="t47">.</w>
+        <w xml:id="t48">Dans</w>
+        <w xml:id="t49">le</w>
+        <w xml:id="t50">domaine</w>
+        <w xml:id="t51">de</w>
+        <w xml:id="t52">pH</w>
+        <w xml:id="t53">étudié</w>
+        <w xml:id="t54">nos</w>
+        <w xml:id="t55">résultats</w>
+        <w xml:id="t56">expérimentaux</w>
+        <w xml:id="t57">sont</w>
+        <w xml:id="t58">en</w>
+        <w xml:id="t59">accord</w>
+        <w xml:id="t60">avec</w>
+        <w xml:id="t61">un</w>
+        <w xml:id="t62">modèle</w>
+        <w xml:id="t63">cinétique</w>
+        <w xml:id="t64">comprenant</w>
+        <w xml:id="t65">la</w>
+        <w xml:id="t66">contribution</w>
+        <w xml:id="t67">de</w>
+        <w xml:id="t68">deux</w>
+        <w xml:id="t69">couples</w>
+        <w xml:id="t70">de</w>
+        <w xml:id="t71">processus</w>
+        <w xml:id="t72">indiscernables</w>
+        <w xml:id="t73">.</w>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t74">H</w>
+          <w xml:id="t75">3</w>
+          <w xml:id="t76">Cy</w>
+          <w xml:id="t77">+</w>
+          <w xml:id="t78">CIO</w>
+          <w xml:id="t79">-</w>
+          <w xml:id="t80">produits</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t81">H</w>
+          <w xml:id="t82">2</w>
+          <w xml:id="t83">Cy</w>
+          <w xml:id="t84">-</w>
+          <w xml:id="t85">+</w>
+          <w xml:id="t86">ClOH</w>
+          <w xml:id="t87">produits</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t88">H</w>
+          <w xml:id="t89">2</w>
+          <w xml:id="t90">Cy</w>
+          <w xml:id="t91">-</w>
+          <w xml:id="t92">+</w>
+          <w xml:id="t93">Co</w>
+          <w xml:id="t94">-</w>
+          <w xml:id="t95">produits</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t96">HCy</w>
+          <w xml:id="t97">2</w>
+          <w xml:id="t98">-</w>
+          <w xml:id="t99">+</w>
+          <w xml:id="t100">ClOH</w>
+          <w xml:id="t101">produits</w>
+        </formula>
+      </p>
+      <p>
+        <w xml:id="t102">Les</w>
+        <w xml:id="t103">valeurs</w>
+        <w xml:id="t104">limites</w>
+        <w xml:id="t105">des</w>
+        <w xml:id="t106">constantes</w>
+        <w xml:id="t107">de</w>
+        <w xml:id="t108">vitesse</w>
+        <w xml:id="t109">dans</w>
+        <w xml:id="t110">le</w>
+        <w xml:id="t111">cas</w>
+        <w xml:id="t112">où</w>
+        <w xml:id="t113">,</w>
+        <w xml:id="t114">pour</w>
+        <w xml:id="t115">chaque</w>
+        <w xml:id="t116">couple</w>
+        <w xml:id="t117">,</w>
+        <w xml:id="t118">un</w>
+        <w xml:id="t119">seul</w>
+        <w xml:id="t120">des</w>
+        <w xml:id="t121">processus</w>
+        <w xml:id="t122">participe</w>
+        <w xml:id="t123">à</w>
+        <w xml:id="t124">la</w>
+        <w xml:id="t125">cinétique</w>
+        <w xml:id="t126">de</w>
+        <w xml:id="t127">chloration</w>
+        <w xml:id="t128">sont</w>
+        <w xml:id="t129">les</w>
+        <w xml:id="t130">suivantes</w>
+        <w xml:id="t131">:</w>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t132">k</w>
+          <w xml:id="t133">2</w>
+          <w xml:id="t134">=</w>
+          <w xml:id="t135">(</w>
+          <w xml:id="t136">5,4</w>
+          <w xml:id="t137">x</w>
+          <w xml:id="t138">10</w>
+          <w xml:id="t139">"</w>
+          <w xml:id="t140">)</w>
+          <w xml:id="t141">exp</w>
+          <w xml:id="t142">(</w>
+          <w xml:id="t143">—35500/i?r</w>
+          <w xml:id="t144">)</w>
+          <w xml:id="t145">M</w>
+          <w xml:id="t146">-</w>
+          <w xml:id="t147">1</w>
+          <w xml:id="t148">s</w>
+          <w xml:id="t149">-</w>
+          <w xml:id="t150">1</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t151">k</w>
+          <w xml:id="t152">3</w>
+          <w xml:id="t153">=</w>
+          <w xml:id="t154">(</w>
+          <w xml:id="t155">2,0</w>
+          <w xml:id="t156">x</w>
+          <w xml:id="t157">10</w>
+          <w xml:id="t158">"</w>
+          <w xml:id="t159">)</w>
+          <w xml:id="t160">exp</w>
+          <w xml:id="t161">(</w>
+          <w xml:id="t162">-</w>
+          <w xml:id="t163">36100/RT</w>
+          <w xml:id="t164">)</w>
+          <w xml:id="t165">M</w>
+          <w xml:id="t166">-</w>
+          <w xml:id="t167">1</w>
+          <w xml:id="t168">s</w>
+          <w xml:id="t169">-</w>
+          <w xml:id="t170">1</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t171">¿4</w>
+          <w xml:id="t172">=</w>
+          <w xml:id="t173">(</w>
+          <w xml:id="t174">1,4</w>
+          <w xml:id="t175">x</w>
+          <w xml:id="t176">10</w>
+          <w xml:id="t177">13</w>
+          <w xml:id="t178">)</w>
+          <w xml:id="t179">çxp</w>
+          <w xml:id="t180">(</w>
+          <w xml:id="t181">-</w>
+          <w xml:id="t182">55200/RT</w>
+          <w xml:id="t183">)</w>
+          <w xml:id="t184">M</w>
+          <w xml:id="t185">-</w>
+          <w xml:id="t186">1</w>
+          <w xml:id="t187">s</w>
+          <w xml:id="t188">-</w>
+          <w xml:id="t189">1</w>
+        </formula>
+      </p>
+      <p>
+        <formula>
+          <w xml:id="t190">k</w>
+          <w xml:id="t191">,</w>
+          <w xml:id="t192">=</w>
+          <w xml:id="t193">2,2</w>
+          <w xml:id="t194">x</w>
+          <w xml:id="t195">10</w>
+          <w xml:id="t196">M</w>
+          <w xml:id="t197">"</w>
+          <w xml:id="t198">(</w>
+          <w xml:id="t199">à</w>
+          <w xml:id="t200">298</w>
+          <w xml:id="t201">K</w>
+          <w xml:id="t202">)</w>
+        </formula>
+      </p>
+      <p>
+        <w xml:id="t203">À</w>
+        <w xml:id="t204">partir</w>
+        <w xml:id="t205">de</w>
+        <w xml:id="t206">ces</w>
+        <w xml:id="t207">valeurs</w>
+        <w xml:id="t208">,</w>
+        <w xml:id="t209">nous</w>
+        <w xml:id="t210">avons</w>
+        <w xml:id="t211">pu</w>
+        <w xml:id="t212">calculer</w>
+        <w xml:id="t213">les</w>
+        <w xml:id="t214">constantes</w>
+        <w xml:id="t215">de</w>
+        <w xml:id="t216">vitesse</w>
+        <w xml:id="t217">d'</w>
+        <w xml:id="t218">hydrolyse</w>
+        <w xml:id="t219">des</w>
+        <w xml:id="t220">dérivés</w>
+        <w xml:id="t221">monochlorés</w>
+        <w xml:id="t222">de</w>
+        <w xml:id="t223">l'</w>
+        <w xml:id="t224">acide</w>
+        <w xml:id="t225">cyanurique</w>
+        <w xml:id="t226">.</w>
+        <w xml:id="t227">Mots</w>
+        <w xml:id="t228">clés</w>
+        <w xml:id="t229">:</w>
+        <w xml:id="t230">cinétique</w>
+        <w xml:id="t231">,</w>
+        <w xml:id="t232">N-chloration</w>
+        <w xml:id="t233">,</w>
+        <w xml:id="t234">1,3,5-triazine</w>
+        <w xml:id="t235">2,4,6-trione</w>
+        <w xml:id="t236">,</w>
+        <w xml:id="t237">phase</w>
+        <w xml:id="t238">aqueuse</w>
+        <w xml:id="t239">,</w>
+        <w xml:id="t240">spectrophotométrie</w>
+        <w xml:id="t241">à</w>
+        <w xml:id="t242">écoulement</w>
+        <w xml:id="t243">bloqué</w>
+        <w xml:id="t244">.</w>
+      </p>
+    </div>
+  </text>
+</TEI>

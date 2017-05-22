@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://standoff.proposal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Quelles médiations pour une gestion efficace de la transposition didactique en anglais de spécialité ?</title>
+        <author>
+          <persName>
+            <forename>Marie-Christine</forename>
+            <surname>Deyrich</surname>
+          </persName>
+          <affiliation>
+            <s>Marie-Christine Deyrich, après avoir été PRAG d'anglais à l'Université Charles de Gaulle Lille 3 auprès d'un public de spécialistes d'autres disciplines, a été nommée maître de conférences à l'IUFM de l'académie de Montpellier à la rentrée universitaire 2001. Sa recherche porte sur la didactique de l'anglais. <hi rend="author-email">mc.deyrich@wanadoo.fr</hi> </s>
+          </affiliation>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+        <date when="2010-11-12">2010-11-12</date>
+        <availability>
+          <p>Tous droits réservés</p>
+        </availability>
+        <idno type="url">http://asp.revues.org/1909</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title/>
+            <respStmt>
+              <resp>auteur</resp>
+              <name>Marie-Christine Deyrich</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher/>
+            <date>2001-12-01</date>
+            <idno type="pp">143-152</idno>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="1.0" ident="Lodel">
+          <label>Lodel</label>
+          <desc>
+            <ref>We use TEI</ref>
+          </desc>
+        </application>
+      </appInfo>
+      <tagsDecl>
+        <rendition xml:id="T1" scheme="css">text-decoration:line-through</rendition>
+        <rendition xml:id="T2" scheme="css">font-variant:small-caps;text-decoration:underline</rendition>
+        <rendition xml:id="T3" scheme="css">font-variant:small-caps</rendition>
+        <rendition xml:id="T4" scheme="css">text-transform:uppercase</rendition>
+        <rendition xml:id="T5" scheme="css">text-transform:uppercase;text-decoration:underline;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">fr</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="keyword" xml:lang="en">
+          <list>
+            <item>grammar</item>
+            <item>didactic transposition</item>
+            <item>progress (learning)</item>
+            <item>simplification</item>
+            <item>strategy (teaching)</item>
+          </list>
+        </keywords>
+        <keywords scheme="keyword" xml:lang="fr">
+          <list>
+            <item>grammaire</item>
+            <item>progrès (de l'apprentissage)</item>
+            <item>simplification</item>
+            <item>stratégie (d'enseignement)</item>
+            <item>transposition didactique</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <ns2:stdf>
+    <ns2:annotations>
+      <spanGrp type="wordForms">
+        <span target="#t1" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t2" lemma="question" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t3" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t4" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t5" lemma="médiation" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t6" lemma="être" pos="VER:futu" corresp="#glawi-132384"/>
+        <span target="#t7" lemma="aborder" pos="VER:pper" corresp="#glawi-86933"/>
+        <span target="#t8" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t9" lemma="partir" pos="VER:infi" corresp="#glawi-17594"/>
+        <span target="#t10" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t11" lemma="concept" pos="NOM" corresp="#glawi-18324"/>
+        <span target="#t12" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t13" lemma="transposition" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t14" lemma="didactique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t15" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t16" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t17" lemma="but" pos="NOM" corresp="#glawi-16696"/>
+        <span target="#t18" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t19" lemma="déterminer" pos="VER:infi" corresp="#glawi-92046"/>
+        <span target="#t20" lemma="comment" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t21" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t22" lemma="intervention" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t23" lemma="enseignant" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t24" lemma="pouvoir" pos="VER:pres" corresp="#glawi-132390"/>
+        <span target="#t25" lemma="simplifier" pos="VER:infi" corresp="#glawi-113154"/>
+        <span target="#t26" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t27" lemma="savoir" pos="NOM" corresp="#glawi-17486"/>
+        <span target="#t28" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t29" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t30" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t31" lemma="pour" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t32" lemma="que" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t33" lemma="il" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t34" lemma="devenir" pos="VER:pres" corresp="#glawi-18115"/>
+        <span target="#t35" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t36" lemma="chez" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t37" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t38" lemma="apprenant" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t39" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t40" lemma="opératoire" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t41" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t42" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t43" lemma="pratique" pos="NOM" corresp="#glawi-110862"/>
+        <span target="#t44" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t45" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t46" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t47" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t48" lemma="contribuer" pos="VER:ppre" corresp="#glawi-16948"/>
+        <span target="#t49" lemma="ainsi" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t50" lemma="au" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t51" lemma="progrès" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t52" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t53" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t54" lemma="apprentissage" pos="NOM" corresp="#glawi-87639"/>
+        <span target="#t55" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t56" lemma="afin" pos="KON" corresp="#noGlawi"/>
+        <span target="#t57" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t58" lemma="définir" pos="VER:infi" corresp="#glawi-16836"/>
+        <span target="#t59" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t60" lemma="critère" pos="NOM" corresp="#glawi-91058"/>
+        <span target="#t61" lemma="pour" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t62" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t63" lemma="jonction" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t64" lemma="favorable" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t65" lemma="entre" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t66" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t67" lemma="stratégie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t68" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t69" lemma="enseignement" pos="NOM" corresp="#glawi-17336"/>
+        <span target="#t70" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t71" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t72" lemma="stratégie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t73" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t74" lemma="apprentissage" pos="NOM" corresp="#glawi-87639"/>
+        <span target="#t75" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t76" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t77" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t78" lemma="concentrer" pos="VER:futu" corresp="#glawi-90450"/>
+        <span target="#t79" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t80" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t81" lemma="différent" pos="ADJ" corresp="#glawi-75083"/>
+        <span target="#t82" lemma="étape" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t83" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t84" lemma="parcours" pos="NOM" corresp="#glawi-109899"/>
+        <span target="#t85" lemma="transpositif" pos="ADJ" corresp="#glawi-135527"/>
+        <span target="#t86" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t87" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t88" lemma="linguistique" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t89" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t90" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t91" lemma="grammaire" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t92" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t93" lemma="depuis" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t94" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t95" lemma="recherche" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t96" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t97" lemma="explication" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t98" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t99" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t100" lemma="théorie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t101" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t102" lemma="référence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t103" lemma="jusque" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t104" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t105" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t106" lemma="mise" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t107" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t108" lemma="œuvre" pos="NOM" corresp="#glawi-18042"/>
+        <span target="#t109" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t110" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t111" lemma="classe" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t112" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t113" lemma="langue" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t114" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t115" lemma="enfin" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t116" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t117" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t118" lemma="tenter" pos="VER:futu" corresp="#glawi-113946"/>
+        <span target="#t119" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t120" lemma="caractériser" pos="VER:infi" corresp="#glawi-17197"/>
+        <span target="#t121" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t122" lemma="aménagement" pos="NOM" corresp="#glawi-87388"/>
+        <span target="#t123" lemma="nécessaire" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t124" lemma="pour" pos="KON" corresp="#noGlawi"/>
+        <span target="#t125" lemma="que" pos="KON" corresp="#noGlawi"/>
+        <span target="#t126" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t127" lemma="cadre" pos="NOM" corresp="#glawi-20665"/>
+        <span target="#t128" lemma="général" pos="ADJ" corresp="#glawi-106460"/>
+        <span target="#t129" lemma="ainsi" pos="KON" corresp="#noGlawi"/>
+        <span target="#t130" lemma="établi" pos="NOM" corresp="#glawi-89679"/>
+        <span target="#t131" lemma="prendre" pos="VER:subp" corresp="#glawi-16576"/>
+        <span target="#t132" lemma="en" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t133" lemma="compter" pos="VER:pres" corresp="#glawi-90462"/>
+        <span target="#t134" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t135" lemma="spécificité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t136" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t137" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t138" lemma="enseignement-apprentissage" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t139" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t140" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t141" lemma="anglais" pos="ADJ" corresp="#glawi-16570"/>
+        <span target="#t142" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t143" lemma="spécialité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t144" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t145" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t146" lemma="enseignement" pos="NOM" corresp="#glawi-17336"/>
+        <span target="#t147" lemma="supérieur" pos="ADJ" corresp="#glawi-113562"/>
+      </spanGrp>
+      <spanGrp type="candidatsTermes">
+        <interpGrp>
+          <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+          <interp xml:id="DM2">Occurrence du candidat terme validée au niveau scientifique et syntaxique</interp>
+          <interp xml:id="DM3">Occurrence du candidat terme validée au niveau disciplinaire, scientifique et syntaxique</interp>
+          <interp xml:id="DM4">Occurrence du candidat terme validée sur tous les niveaux d'annotation. Elle est validée au niveau terminologique</interp>
+          <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+        </interpGrp>
+        <interpGrp>
+          <interp xml:id="DAOn">Occurrence du candidat terme validée au niveau terminologique selon le système de désambiguïsation utilisé</interp>
+          <interp xml:id="DAOff">Occurrence du candidat terme non valide par le système de désambiguïsation</interp>
+        </interpGrp>
+        <span target="#t11 #t12 #t13 #t14" lemma="concept de transposition didactique" corresp="#TS2.0-entry-210851" ana="#noDM #noDA"/>
+        <span target="#t11 #t12 #t13" lemma="concept de transposition" corresp="#TS2.0-entry-210850" ana="#noDM #noDA"/>
+        <span target="#t13 #t14" lemma="transposition didactique" corresp="#TS2.0-entry-134079" ana="#noDM #noDA"/>
+        <span target="#t14" lemma="didactique" corresp="#TS2.0-entry-1271-#TS1.4-entry-229700" ana="#noDM #DAOff"/>
+        <span target="#t38" lemma="apprenants" corresp="#TS2.0-entry-687-#TS1.4-entry-90060" ana="#noDM #DAOn"/>
+        <span target="#t40" lemma="opératoires" corresp="#TS2.0-entry-7980-#TS1.4-entry-446487" ana="#noDM #DAOff"/>
+        <span target="#t43 #t44 #t45 #t46" lemma="pratique de la langue" corresp="#TS2.0-entry-56439" ana="#noDM #noDA"/>
+        <span target="#t67 #t68 #t69" lemma="stratégies d'enseignement" corresp="#TS2.0-entry-62379" ana="#noDM #noDA"/>
+        <span target="#t72 #t73 #t74" lemma="stratégies d'apprentissage" corresp="#TS2.0-entry-20947" ana="#noDM #noDA"/>
+        <span target="#t85" lemma="transpositif" corresp="#TS2.0-entry-210858" ana="#noDM #noDA"/>
+        <span target="#t88" lemma="linguistique" corresp="#TS2.0-entry-188-#TS1.4-entry-47530" ana="#noDM #DAOn"/>
+        <span target="#t111 #t112 #t113" lemma="classe de langue" corresp="#TS2.0-entry-21846-#TS1.4-entry-5421847" ana="#noDM #DAOn"/>
+        <span target="#t127 #t128" lemma="cadre général" corresp="#TS2.0-entry-25153-#TS1.4-entry-1859151" ana="#noDM #DAOff"/>
+        <span target="#t138" lemma="enseignement-apprentissage" corresp="#TS2.0-entry-21071-#TS1.4-entry-202220" ana="#noDM #noDA"/>
+      </spanGrp>
+      <spanGrp type="syntagmesDefinis">
+        <span target="#t146 #t147" lemma="enseignement supérieur" corresp="#syntita-54246"/>
+      </spanGrp>
+      <spanGrp type="lexiquesTransdisciplinaires">
+        <span target="#t2 #t3" lemma="question de" corresp="#transdisc-2266"/>
+        <span target="#t31 #t32" lemma="pour que" corresp="#transdisc-2228"/>
+        <span target="#t56 #t57" lemma="afin de" corresp="#transdisc-1300"/>
+        <span target="#t124 #t125" lemma="pour que" corresp="#transdisc-2228"/>
+      </spanGrp>
+    </ns2:annotations>
+  </ns2:stdf>
+  <text>
+    <div type="abstract" xml:lang="fr">
+      <p>
+        <w xml:id="t1">La</w>
+        <w xml:id="t2">question</w>
+        <w xml:id="t3">de</w>
+        <w xml:id="t4">la</w>
+        <w xml:id="t5">médiation</w>
+        <w xml:id="t6">sera</w>
+        <w xml:id="t7">abordée</w>
+        <w xml:id="t8">à</w>
+        <w xml:id="t9">partir</w>
+        <w xml:id="t10">du</w>
+        <w xml:id="t11">concept</w>
+        <w xml:id="t12">de</w>
+        <w xml:id="t13">transposition</w>
+        <w xml:id="t14">didactique</w>
+        <w xml:id="t15">dans</w>
+        <w xml:id="t16">le</w>
+        <w xml:id="t17">but</w>
+        <w xml:id="t18">de</w>
+        <w xml:id="t19">déterminer</w>
+        <w xml:id="t20">comment</w>
+        <w xml:id="t21">l'</w>
+        <w xml:id="t22">intervention</w>
+        <w xml:id="t23">enseignante</w>
+        <w xml:id="t24">peut</w>
+        <w xml:id="t25">simplifier</w>
+        <w xml:id="t26">les</w>
+        <w xml:id="t27">savoirs</w>
+        <w xml:id="t28">sur</w>
+        <w xml:id="t29">la</w>
+        <w xml:id="t30">langue</w>
+        <w xml:id="t31">pour</w>
+        <w xml:id="t32">qu'</w>
+        <w xml:id="t33">ils</w>
+        <w xml:id="t34">deviennent</w>
+        <w xml:id="t35">,</w>
+        <w xml:id="t36">chez</w>
+        <w xml:id="t37">les</w>
+        <w xml:id="t38">apprenants</w>
+        <w xml:id="t39">,</w>
+        <w xml:id="t40">opératoires</w>
+        <w xml:id="t41">dans</w>
+        <w xml:id="t42">la</w>
+        <w xml:id="t43">pratique</w>
+        <w xml:id="t44">de</w>
+        <w xml:id="t45">la</w>
+        <w xml:id="t46">langue</w>
+        <w xml:id="t47">,</w>
+        <w xml:id="t48">contribuant</w>
+        <w xml:id="t49">ainsi</w>
+        <w xml:id="t50">aux</w>
+        <w xml:id="t51">progrès</w>
+        <w xml:id="t52">de</w>
+        <w xml:id="t53">l'</w>
+        <w xml:id="t54">apprentissage</w>
+        <w xml:id="t55">.</w>
+        <w xml:id="t56">Afin</w>
+        <w xml:id="t57">de</w>
+        <w xml:id="t58">définir</w>
+        <w xml:id="t59">des</w>
+        <w xml:id="t60">critères</w>
+        <w xml:id="t61">pour</w>
+        <w xml:id="t62">une</w>
+        <w xml:id="t63">jonction</w>
+        <w xml:id="t64">favorable</w>
+        <w xml:id="t65">entre</w>
+        <w xml:id="t66">les</w>
+        <w xml:id="t67">stratégies</w>
+        <w xml:id="t68">d'</w>
+        <w xml:id="t69">enseignement</w>
+        <w xml:id="t70">et</w>
+        <w xml:id="t71">les</w>
+        <w xml:id="t72">stratégies</w>
+        <w xml:id="t73">d'</w>
+        <w xml:id="t74">apprentissage</w>
+        <w xml:id="t75">,</w>
+        <w xml:id="t76">nous</w>
+        <w xml:id="t77">nous</w>
+        <w xml:id="t78">concentrerons</w>
+        <w xml:id="t79">sur</w>
+        <w xml:id="t80">les</w>
+        <w xml:id="t81">différentes</w>
+        <w xml:id="t82">étapes</w>
+        <w xml:id="t83">du</w>
+        <w xml:id="t84">parcours</w>
+        <w xml:id="t85">transpositif</w>
+        <w xml:id="t86">de</w>
+        <w xml:id="t87">la</w>
+        <w xml:id="t88">linguistique</w>
+        <w xml:id="t89">à</w>
+        <w xml:id="t90">la</w>
+        <w xml:id="t91">grammaire</w>
+        <w xml:id="t92">,</w>
+        <w xml:id="t93">depuis</w>
+        <w xml:id="t94">la</w>
+        <w xml:id="t95">recherche</w>
+        <w xml:id="t96">d'</w>
+        <w xml:id="t97">explications</w>
+        <w xml:id="t98">dans</w>
+        <w xml:id="t99">les</w>
+        <w xml:id="t100">théories</w>
+        <w xml:id="t101">de</w>
+        <w xml:id="t102">référence</w>
+        <w xml:id="t103">jusqu'</w>
+        <w xml:id="t104">à</w>
+        <w xml:id="t105">la</w>
+        <w xml:id="t106">mise</w>
+        <w xml:id="t107">en</w>
+        <w xml:id="t108">œuvre</w>
+        <w xml:id="t109">dans</w>
+        <w xml:id="t110">la</w>
+        <w xml:id="t111">classe</w>
+        <w xml:id="t112">de</w>
+        <w xml:id="t113">langue</w>
+        <w xml:id="t114">.</w>
+        <w xml:id="t115">Enfin</w>
+        <w xml:id="t116">,</w>
+        <w xml:id="t117">nous</w>
+        <w xml:id="t118">tenterons</w>
+        <w xml:id="t119">de</w>
+        <w xml:id="t120">caractériser</w>
+        <w xml:id="t121">les</w>
+        <w xml:id="t122">aménagements</w>
+        <w xml:id="t123">nécessaires</w>
+        <w xml:id="t124">pour</w>
+        <w xml:id="t125">que</w>
+        <w xml:id="t126">le</w>
+        <w xml:id="t127">cadre</w>
+        <w xml:id="t128">général</w>
+        <w xml:id="t129">ainsi</w>
+        <w xml:id="t130">établi</w>
+        <w xml:id="t131">prenne</w>
+        <w xml:id="t132">en</w>
+        <w xml:id="t133">compte</w>
+        <w xml:id="t134">la</w>
+        <w xml:id="t135">spécificité</w>
+        <w xml:id="t136">de</w>
+        <w xml:id="t137">l'</w>
+        <w xml:id="t138">enseignement-apprentissage</w>
+        <w xml:id="t139">de</w>
+        <w xml:id="t140">l'</w>
+        <w xml:id="t141">anglais</w>
+        <w xml:id="t142">de</w>
+        <w xml:id="t143">spécialité</w>
+        <w xml:id="t144">dans</w>
+        <w xml:id="t145">l'</w>
+        <w xml:id="t146">enseignement</w>
+        <w xml:id="t147">supérieur</w>
+        <w xml:id="t148">.</w>
+      </p>
+    </div>
+  </text>
+</TEI>

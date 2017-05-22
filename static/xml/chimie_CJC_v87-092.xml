@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://standoff.proposal" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML">
+  <teiHeader xml:lang="fr">
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Étude des complexes fluorés et chlorés du plomb dans les mélanges eau-HF</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Canadian Journal of Chemistry</publisher>
+        <date type="published" when="1987">1987</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>
+            <persName>
+              <forename type="first">Réjean</forename>
+              <surname>Beaudoin</surname>
+            </persName>
+            <affiliation>
+              <orgName type="department" key="dep1">Département de chimie</orgName>
+              <orgName type="department" key="dep2">Faculté des sciences</orgName>
+              <orgName type="institution">Université de Sherbrooke</orgName>
+              <address>
+                <postCode>J1K 2R1</postCode>
+                <settlement>Sherbrooke</settlement>
+                <region>Que</region>
+                <country key="CA">Canada</country>
+              </address>
+            </affiliation>
+          </author>
+          <author>
+            <persName>
+              <forename type="first">Hugues</forename>
+              <surname>Ménard</surname>
+            </persName>
+            <affiliation>
+              <orgName type="department" key="dep1">Département de chimie</orgName>
+              <orgName type="department" key="dep2">Faculté des sciences</orgName>
+              <orgName type="institution">Université de Sherbrooke</orgName>
+              <address>
+                <postCode>J1K 2R1</postCode>
+                <settlement>Sherbrooke</settlement>
+                <region>Que</region>
+                <country key="CA">Canada</country>
+              </address>
+            </affiliation>
+          </author>
+          <title level="a" type="main">Étude des complexes fluorés et chlorés du plomb dans les mélanges eau-HF</title>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <ns2:stdf>
+    <ns2:annotations>
+      <spanGrp type="wordForms">
+        <span target="#t1" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t2" lemma="étude" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t3" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t4" lemma="complexe" pos="NOM" corresp="#glawi-20764"/>
+        <span target="#t5" lemma="fluorer" pos="VER:pper" corresp="#glawi-4903"/>
+        <span target="#t6" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t7" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t8" lemma="complexe" pos="NOM" corresp="#glawi-20764"/>
+        <span target="#t9" lemma="chlorer" pos="VER:pper" corresp="#glawi-20114"/>
+        <span target="#t10" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t11" lemma="plomb" pos="NOM" corresp="#glawi-110546"/>
+        <span target="#t12" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t13" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t14" lemma="mélange" pos="NOM" corresp="#glawi-18099"/>
+        <span target="#t15" lemma="eau-hf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t16" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t17" lemma="être" pos="VER:pper" corresp="#glawi-132384"/>
+        <span target="#t18" lemma="effectuer" pos="VER:pper" corresp="#glawi-92609"/>
+        <span target="#t19" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t20" lemma="polaro-graphie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t21" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t22" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t23" lemma="diminution" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t24" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t25" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t26" lemma="ordre" pos="NOM" corresp="#glawi-16601"/>
+        <span target="#t27" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t28" lemma="complexe" pos="NOM" corresp="#glawi-20764"/>
+        <span target="#t29" lemma="fluorer" pos="VER:pper" corresp="#glawi-4903"/>
+        <span target="#t30" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t31" lemma="pbf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t32" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t33" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t34" lemma="pbf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t35" lemma="+" pos="SYM" corresp="#noGlawi"/>
+        <span target="#t36" lemma="être" pos="VER:pres" corresp="#glawi-132384"/>
+        <span target="#t37" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t38" lemma="accord" pos="NOM" corresp="#glawi-20505"/>
+        <span target="#t39" lemma="avec" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t40" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t41" lemma="diminution" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t42" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t43" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t44" lemma="activité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t45" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t46" lemma="ion" pos="NOM" corresp="#glawi-19125"/>
+        <span target="#t47" lemma="fluorure" pos="NOM" corresp="#glawi-106002"/>
+        <span target="#t48" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t49" lemma="/" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t50" lemma="#noLemma" pos="SENT" corresp="#noGlawi"/>
+        <span target="#t51" lemma="0" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t52" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t53" lemma="f" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t54" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t55" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t56" lemma="mesurer" pos="VER:pper" corresp="#glawi-108771"/>
+        <span target="#t57" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t58" lemma="augmenter" pos="VER:ppre" corresp="#glawi-18113"/>
+        <span target="#t59" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t60" lemma="concentration" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t61" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t62" lemma="hf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t63" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t64" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t65" lemma="obtention" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t66" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t67" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t68" lemma="forme" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t69" lemma="cristallin" pos="ADJ" corresp="#glawi-18844"/>
+        <span target="#t70" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t71" lemma="pbf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t72" lemma="2" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t73" lemma="selon" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t74" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t75" lemma="domaine" pos="NOM" corresp="#glawi-20946"/>
+        <span target="#t76" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t77" lemma="concentration" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t78" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t79" lemma="hf" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t80" lemma="venir" pos="VER:pres" corresp="#glawi-17860"/>
+        <span target="#t81" lemma="appuyer" pos="VER:infi" corresp="#glawi-17647"/>
+        <span target="#t82" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t83" lemma="existence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t84" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t85" lemma="deux" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t86" lemma="complexe" pos="NOM" corresp="#glawi-20764"/>
+        <span target="#t87" lemma="fluoré" pos="ADJ" corresp="#glawi-4904"/>
+        <span target="#t88" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t89" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t90" lemma="observation" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t91" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t92" lemma="pbfcl" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t93" lemma="confirmer" pos="VER:pres" corresp="#glawi-90524"/>
+        <span target="#t94" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t95" lemma="présence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t96" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t97" lemma="complexe" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t98" lemma="mixte" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t99" lemma="fluorure-chlorure" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t100" lemma="dans" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t101" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t102" lemma="mélange" pos="NOM" corresp="#glawi-18099"/>
+        <span target="#t103" lemma="eau-hf" pos="NOM" corresp="#noGlawi"/>
+      </spanGrp>
+      <spanGrp type="candidatsTermes">
+        <interpGrp type="desambiguisation_manuelle">
+          <interp xml:id="noDM">Occurrence du candidat terme non annotée</interp>
+          <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+          <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+          <interp xml:id="DM3">Occurrence du candidat terme validée au niveau syntaxique et disciplinaire</interp>
+          <interp xml:id="DM4">Occurrence du candidat terme validée à tous les niveaux d'annotation. Cette occurrence est considérée comme terminologique</interp>
+        </interpGrp>
+        <span target="#t2 #t3 #t4" corresp="#entry-18898" lemma="étude des complexes" ana="#noDM"/>
+        <span target="#t2" corresp="#entry-822" lemma="étude" ana="#noDM"/>
+        <span target="#t4 #t5" corresp="#entry-21572" lemma="complexes fluorés" ana="#noDM"/>
+        <span target="#t4" corresp="#entry-661" lemma="complexes" ana="#noDM"/>
+        <span target="#t8 #t9" corresp="#entry-21573" lemma="complexes chlorés" ana="#noDM"/>
+        <span target="#t8" corresp="#entry-661" lemma="complexes" ana="#noDM"/>
+        <span target="#t11" corresp="#entry-22021" lemma="plomb" ana="#noDM"/>
+        <span target="#t14 #t15" corresp="#entry-21578" lemma="mélanges eau-HF" ana="#noDM"/>
+        <span target="#t14" corresp="#entry-933" lemma="mélanges" ana="#noDM"/>
+        <span target="#t15" corresp="#entry-21577" lemma="eau-HF" ana="#noDM"/>
+        <span target="#t23" corresp="#entry-4904" lemma="diminution" ana="#noDM"/>
+        <span target="#t26" corresp="#entry-396" lemma="ordre" ana="#noDM"/>
+        <span target="#t28 #t29" corresp="#entry-21572" lemma="complexes fluorés" ana="#noDM"/>
+        <span target="#t28" corresp="#entry-661" lemma="complexes" ana="#noDM"/>
+        <span target="#t38" corresp="#entry-421" lemma="accord" ana="#noDM"/>
+        <span target="#t41" corresp="#entry-4904" lemma="diminution" ana="#noDM"/>
+        <span target="#t44 #t45 #t46" corresp="#entry-21584" lemma="activité en ions" ana="#noDM"/>
+        <span target="#t44" corresp="#entry-4154" lemma="activité" ana="#noDM"/>
+        <span target="#t46 #t47" corresp="#entry-21585" lemma="ions fluorure" ana="#noDM"/>
+        <span target="#t46" corresp="#entry-121" lemma="ions" ana="#noDM"/>
+        <span target="#t47" corresp="#entry-15228" lemma="fluorure" ana="#noDM"/>
+        <span target="#t60 #t61 #t62" corresp="#entry-21587" lemma="concentration en HF" ana="#noDM"/>
+        <span target="#t60" corresp="#entry-29" lemma="concentration" ana="#noDM"/>
+        <span target="#t62" corresp="#entry-430" lemma="HF" ana="#noDM"/>
+        <span target="#t65" corresp="#entry-4167" lemma="obtention" ana="#noDM"/>
+        <span target="#t68 #t69" corresp="#entry-17234" lemma="formes cristallines" ana="#noDM"/>
+        <span target="#t68" corresp="#entry-1301" lemma="formes" ana="#noDM"/>
+        <span target="#t69" corresp="#entry-8451" lemma="cristallines" ana="#noDM"/>
+        <span target="#t75 #t76 #t77" corresp="#entry-10936" lemma="domaine de concentration" ana="#noDM"/>
+        <span target="#t75" corresp="#entry-518" lemma="domaine" ana="#noDM"/>
+        <span target="#t77 #t78 #t79" corresp="#entry-21587" lemma="concentration en HF" ana="#noDM"/>
+        <span target="#t77" corresp="#entry-29" lemma="concentration" ana="#noDM"/>
+        <span target="#t79" corresp="#entry-430" lemma="HF" ana="#noDM"/>
+        <span target="#t83" corresp="#entry-1633" lemma="existence" ana="#noDM"/>
+        <span target="#t86 #t87" corresp="#entry-21724" lemma="complexes fluorés" ana="#noDM"/>
+        <span target="#t86" corresp="#entry-661" lemma="complexes" ana="#noDM"/>
+        <span target="#t87" corresp="#entry-21723" lemma="fluorés" ana="#noDM"/>
+        <span target="#t90" corresp="#entry-22" lemma="observation" ana="#noDM"/>
+        <span target="#t95" corresp="#entry-802" lemma="présence" ana="#noDM"/>
+        <span target="#t97" corresp="#entry-679" lemma="complexe" ana="#noDM"/>
+        <span target="#t98" corresp="#entry-6887" lemma="mixte" ana="#noDM"/>
+        <span target="#t102 #t103" corresp="#entry-21578" lemma="mélanges eau-HF" ana="#noDM"/>
+        <span target="#t102" corresp="#entry-933" lemma="mélanges" ana="#noDM"/>
+        <span target="#t103" corresp="#entry-21577" lemma="eau-HF" ana="#noDM"/>
+      </spanGrp>
+      <spanGrp type="syntagmesDefinis">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+</spanGrp>
+      <spanGrp type="lexiquesTransdisciplinaires">
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+</spanGrp>
+    </ns2:annotations>
+  </ns2:stdf>
+  <text xml:lang="fr">
+    <div type="abstract" xml:lang="fr">
+      <p>
+        <w xml:id="t1">L'</w>
+        <w xml:id="t2">étude</w>
+        <w xml:id="t3">des</w>
+        <w xml:id="t4">complexes</w>
+        <w xml:id="t5">fluorés</w>
+        <w xml:id="t6">et</w>
+        <w xml:id="t7">des</w>
+        <w xml:id="t8">complexes</w>
+        <w xml:id="t9">chlorés</w>
+        <w xml:id="t10">du</w>
+        <w xml:id="t11">plomb</w>
+        <w xml:id="t12">dans</w>
+        <w xml:id="t13">les</w>
+        <w xml:id="t14">mélanges</w>
+        <w xml:id="t15">eau-HF</w>
+        <w xml:id="t16">a</w>
+        <w xml:id="t17">été</w>
+        <w xml:id="t18">effectuée</w>
+        <w xml:id="t19">par</w>
+        <w xml:id="t20">Polaro-graphie</w>
+        <w xml:id="t21">.</w>
+        <w xml:id="t22">La</w>
+        <w xml:id="t23">diminution</w>
+        <w xml:id="t24">de</w>
+        <w xml:id="t25">l'</w>
+        <w xml:id="t26">ordre</w>
+        <w xml:id="t27">des</w>
+        <w xml:id="t28">complexes</w>
+        <w xml:id="t29">fluorés</w>
+        <w xml:id="t30">de</w>
+        <w xml:id="t31">PbF</w>
+        <w xml:id="t32">2</w>
+        <w xml:id="t33">à</w>
+        <w xml:id="t34">PbF</w>
+        <w xml:id="t35">+</w>
+        <w xml:id="t36">est</w>
+        <w xml:id="t37">en</w>
+        <w xml:id="t38">accord</w>
+        <w xml:id="t39">avec</w>
+        <w xml:id="t40">la</w>
+        <w xml:id="t41">diminution</w>
+        <w xml:id="t42">de</w>
+        <w xml:id="t43">l'</w>
+        <w xml:id="t44">activité</w>
+        <w xml:id="t45">en</w>
+        <w xml:id="t46">ions</w>
+        <w xml:id="t47">fluorure</w>
+        <w xml:id="t48">,</w>
+        <w xml:id="t49">/</w>
+        <w xml:id="t50">?</w>
+        <w xml:id="t51">0</w>
+        <w xml:id="t52">(</w>
+        <w xml:id="t53">F</w>
+        <w xml:id="t54">)</w>
+        <w xml:id="t55">,</w>
+        <w xml:id="t56">mesurée</w>
+        <w xml:id="t57">en</w>
+        <w xml:id="t58">augmentant</w>
+        <w xml:id="t59">la</w>
+        <w xml:id="t60">concentration</w>
+        <w xml:id="t61">en</w>
+        <w xml:id="t62">HF</w>
+        <w xml:id="t63">.</w>
+        <w xml:id="t64">L'</w>
+        <w xml:id="t65">obtention</w>
+        <w xml:id="t66">de</w>
+        <w xml:id="t67">deux</w>
+        <w xml:id="t68">formes</w>
+        <w xml:id="t69">cristallines</w>
+        <w xml:id="t70">du</w>
+        <w xml:id="t71">PbF</w>
+        <w xml:id="t72">2</w>
+        <w xml:id="t73">selon</w>
+        <w xml:id="t74">le</w>
+        <w xml:id="t75">domaine</w>
+        <w xml:id="t76">de</w>
+        <w xml:id="t77">concentration</w>
+        <w xml:id="t78">en</w>
+        <w xml:id="t79">HF</w>
+        <w xml:id="t80">vient</w>
+        <w xml:id="t81">appuyer</w>
+        <w xml:id="t82">l'</w>
+        <w xml:id="t83">existence</w>
+        <w xml:id="t84">de</w>
+        <w xml:id="t85">deux</w>
+        <w xml:id="t86">complexes</w>
+        <w xml:id="t87">fluorés</w>
+        <w xml:id="t88">.</w>
+        <w xml:id="t89">L'</w>
+        <w xml:id="t90">observation</w>
+        <w xml:id="t91">du</w>
+        <w xml:id="t92">PbFCl</w>
+        <w xml:id="t93">confirme</w>
+        <w xml:id="t94">la</w>
+        <w xml:id="t95">présence</w>
+        <w xml:id="t96">de</w>
+        <w xml:id="t97">complexe</w>
+        <w xml:id="t98">mixte</w>
+        <w xml:id="t99">fluorure-chlorure</w>
+        <w xml:id="t100">dans</w>
+        <w xml:id="t101">les</w>
+        <w xml:id="t102">mélanges</w>
+        <w xml:id="t103">eau-HF</w>
+        <w xml:id="t104">.</w>
+      </p>
+    </div>
+  </text>
+</TEI>

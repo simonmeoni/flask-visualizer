@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:ns2="http://standoff.proposal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="a" type="main">Le Vasconien : révision de sa signification à partir des industries lithiques d'Olha I et II, d'Isturitz et de Gatzarria</title>
+        <author>
+          <persName>
+            <forename>Marianne</forename>
+            <surname>Deschamps</surname>
+          </persName>
+          <affiliation>
+            <s>Université Toulouse – Le Mirail, Maison de la recherche, TRACES - UMR 5608, 5 allées Antonio Machado, 31058 Toulouse Cedex 9 - deschamps@univ-tlse2.fr</s>
+          </affiliation>
+        </author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+        <date when="2011-10-21">2011-10-21</date>
+        <availability>
+          <p>© Tous droits réservés</p>
+        </availability>
+        <idno type="url">http://paleo.revues.org/1775</idno>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title/>
+            <respStmt>
+              <resp>auteur</resp>
+              <name>Marianne Deschamps</name>
+            </respStmt>
+          </titleStmt>
+          <publicationStmt>
+            <publisher/>
+            <date/>
+            <idno type="pp">103-126</idno>
+          </publicationStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application version="1.0" ident="Lodel">
+          <label>Lodel</label>
+          <desc>
+            <ref target="http://www.tei-c.org/">We use TEI</ref>
+          </desc>
+        </application>
+      </appInfo>
+      <tagsDecl>
+        <rendition xml:id="T1" scheme="css">text-decoration:line-through</rendition>
+        <rendition xml:id="T2" scheme="css">font-variant:small-caps;text-decoration:underline</rendition>
+        <rendition xml:id="T3" scheme="css">font-variant:small-caps</rendition>
+        <rendition xml:id="T4" scheme="css">text-transform:uppercase</rendition>
+        <rendition xml:id="T5" scheme="css">text-transform:uppercase;text-decoration:underline;</rendition>
+      </tagsDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="fr">fr</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="keyword" xml:lang="fr">
+          <list>
+            <item>industrie lithique</item>
+            <item>Paléolithique moyen</item>
+            <item>Vasconien</item>
+            <item>Olha</item>
+            <item>Gatzarria</item>
+            <item>hachereaux</item>
+            <item>Pyrénées-Atlantiques</item>
+          </list>
+        </keywords>
+        <keywords scheme="keyword" xml:lang="en">
+          <list>
+            <item>lithic industry</item>
+            <item>Middle Palaeolithic</item>
+            <item>Vasconian</item>
+            <item>Olha</item>
+            <item>Gatzarria</item>
+            <item>Cleavers</item>
+            <item>Atlantic Pyrenees</item>
+          </list>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <ns2:stdf>
+    <ns2:annotations>
+      <spanGrp type="wordForms">
+        <span target="#t1" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t2" lemma="1953" pos="NUM" corresp="#noGlawi"/>
+        <span target="#t3" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t4" lemma="f" pos="VER:pper" corresp="#noGlawi"/>
+        <span target="#t5" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t6" lemma="borde" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t7" lemma="formaliser" pos="VER:pres" corresp="#glawi-106043"/>
+        <span target="#t8" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t9" lemma="définition" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t10" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t11" lemma="faciès" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t12" lemma="moustérien" pos="ADJ" corresp="#glawi-35312"/>
+        <span target="#t13" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t14" lemma="en" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t15" lemma="définir" pos="VER:pres" corresp="#glawi-16836"/>
+        <span target="#t16" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t17" lemma="nouveau" pos="ADJ" corresp="#glawi-16551"/>
+        <span target="#t18" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t19" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t20" lemma="vasconien" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t21" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t22" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t23" lemma="faciès" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t24" lemma="se" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t25" lemma="caractériser" pos="VER:pres" corresp="#glawi-17197"/>
+        <span target="#t26" lemma="selon" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t27" lemma="lui" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t28" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t29" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t30" lemma="présence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t31" lemma="récurrent" pos="ADJ" corresp="#glawi-111814"/>
+        <span target="#t32" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t33" lemma="hachereau" pos="NOM" corresp="#glawi-20016"/>
+        <span target="#t34" lemma="associer" pos="VER:pper" corresp="#glawi-88280"/>
+        <span target="#t35" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t36" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t37" lemma="débitage" pos="NOM" corresp="#glawi-7952"/>
+        <span target="#t38" lemma="levallois" pos="ADJ" corresp="#glawi-67203"/>
+        <span target="#t39" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t40" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t41" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t42" lemma="racloir" pos="NOM" corresp="#glawi-111432"/>
+        <span target="#t43" lemma="quina" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t44" lemma="dominant" pos="ADJ" corresp="#glawi-86305"/>
+        <span target="#t45" lemma="au" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t46" lemma="sein" pos="NOM" corresp="#glawi-17458"/>
+        <span target="#t47" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t48" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t49" lemma="outillage" pos="NOM" corresp="#glawi-109652"/>
+        <span target="#t50" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t51" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t52" lemma="vasconien" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t53" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t54" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t55" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t56" lemma="suite" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t57" lemma="être" pos="VER:pper" corresp="#glawi-132384"/>
+        <span target="#t58" lemma="remettre" pos="VER:pper" corresp="#glawi-18569"/>
+        <span target="#t59" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t60" lemma="question" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t61" lemma="par" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t62" lemma="plusieurs" pos="PRO:IND" corresp="#noGlawi"/>
+        <span target="#t63" lemma="auteur" pos="NOM" corresp="#glawi-17569"/>
+        <span target="#t64" lemma="qui" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t65" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t66" lemma="mettre" pos="VER:pper" corresp="#glawi-16760"/>
+        <span target="#t67" lemma="en" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t68" lemma="évidence" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t69" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t70" lemma="certain" pos="ADJ" corresp="#glawi-85683"/>
+        <span target="#t71" lemma="hétérogénéité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t72" lemma="au" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t73" lemma="sein" pos="NOM" corresp="#glawi-17458"/>
+        <span target="#t74" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t75" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t76" lemma="ensemble" pos="NOM" corresp="#glawi-16606"/>
+        <span target="#t77" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t78" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t79" lemma="proposer" pos="VER:pper" corresp="#glawi-111138"/>
+        <span target="#t80" lemma="différent" pos="ADJ" corresp="#glawi-75083"/>
+        <span target="#t81" lemma="interprétation" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t82" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t83" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t84" lemma="question" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t85" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t86" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t87" lemma="signification" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t88" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t89" lemma="vasconien" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t90" lemma="ne" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t91" lemma="avoir" pos="VER:pres" corresp="#glawi-16676"/>
+        <span target="#t92" lemma="pas" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t93" lemma="être" pos="VER:pper" corresp="#glawi-132384"/>
+        <span target="#t94" lemma="réviser" pos="VER:pper" corresp="#glawi-140435"/>
+        <span target="#t95" lemma="depuis" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t96" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t97" lemma="développement" pos="NOM" corresp="#glawi-92060"/>
+        <span target="#t98" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t99" lemma="méthode" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t100" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t101" lemma="analyse" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t102" lemma="lier" pos="VER:pper" corresp="#glawi-108136"/>
+        <span target="#t103" lemma="à" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t104" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t105" lemma="technologie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t106" lemma="lithique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t107" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t108" lemma="nous" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t109" lemma="présenter" pos="VER:pres" corresp="#glawi-132383"/>
+        <span target="#t110" lemma="ici" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t111" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t112" lemma="étude" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t113" lemma="technologique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t114" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t115" lemma="industrie" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t116" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t117" lemma="olha" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t118" lemma="ii" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t119" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t120" lemma="cambo-les-bains" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t121" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t122" lemma="pyrénées-atlantiques" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t123" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t124" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t125" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t126" lemma="gatzarria" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t127" lemma="(" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t128" lemma="ossas-suhare" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t129" lemma="," pos="PUN" corresp="#noGlawi"/>
+        <span target="#t130" lemma="pyrénées-atlantiques" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t131" lemma=")" pos="PUN" corresp="#noGlawi"/>
+        <span target="#t132" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t133" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t134" lemma="similitude" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t135" lemma="que" pos="PRO:REL" corresp="#noGlawi"/>
+        <span target="#t136" lemma="elle" pos="PRO:PER" corresp="#noGlawi"/>
+        <span target="#t137" lemma="révéler" pos="VER:pres" corresp="#glawi-112408"/>
+        <span target="#t138" lemma="et" pos="KON" corresp="#noGlawi"/>
+        <span target="#t139" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t140" lemma="comparaison" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t141" lemma="bibliographique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t142" lemma="avec" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t143" lemma="plusieurs" pos="PRO:IND" corresp="#noGlawi"/>
+        <span target="#t144" lemma="série" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t145" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t146" lemma="mont" pos="NOM" corresp="#glawi-85524"/>
+        <span target="#t147" lemma="cantabriques" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t148" lemma="permettre" pos="VER:pres" corresp="#glawi-110220"/>
+        <span target="#t149" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t150" lemma="réévaluer" pos="VER:infi" corresp="#glawi-141584"/>
+        <span target="#t151" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t152" lemma="degré" pos="NOM" corresp="#glawi-17563"/>
+        <span target="#t153" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t154" lemma="homogénéité" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t155" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t156" lemma="production" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t157" lemma="technique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t158" lemma="anciennement" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t159" lemma="attribuer" pos="VER:pper" corresp="#glawi-88311"/>
+        <span target="#t160" lemma="au" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t161" lemma="vasconien" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t162" lemma="sur" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t163" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t164" lemma="base" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t165" lemma="principalement" pos="ADV" corresp="#noGlawi"/>
+        <span target="#t166" lemma="typologique" pos="ADJ" corresp="#noGlawi"/>
+        <span target="#t167" lemma="." pos="SENT" corresp="#noGlawi"/>
+        <span target="#t168" lemma="un" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t169" lemma="nouveau" pos="ADJ" corresp="#glawi-16551"/>
+        <span target="#t170" lemma="interprétation" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t171" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t172" lemma="le" pos="DET:ART" corresp="#noGlawi"/>
+        <span target="#t173" lemma="signification" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t174" lemma="de" pos="PRP" corresp="#noGlawi"/>
+        <span target="#t175" lemma="ce" pos="PRO:DEM" corresp="#noGlawi"/>
+        <span target="#t176" lemma="faciès" pos="NOM" corresp="#noGlawi"/>
+        <span target="#t177" lemma="au" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t178" lemma="sein" pos="NOM" corresp="#glawi-17458"/>
+        <span target="#t179" lemma="du" pos="PRP:det" corresp="#noGlawi"/>
+        <span target="#t180" lemma="moustérien" pos="ADJ" corresp="#glawi-35312"/>
+        <span target="#t181" lemma="pouvoir" pos="VER:pres" corresp="#glawi-132390"/>
+        <span target="#t182" lemma="être" pos="VER:infi" corresp="#glawi-132384"/>
+        <span target="#t183" lemma="proposer" pos="VER:pper" corresp="#glawi-111138"/>
+      </spanGrp>
+      <spanGrp type="candidatsTermes">
+        <interpGrp type="desambiguisation_manuelle">
+          <interp xml:id="noDM">Occurrence du candidat terme non annotée</interp>
+          <interp xml:id="DM0">Occurrence du candidat terme rejetée dès le niveau syntaxique</interp>
+          <interp xml:id="DM1">Occurrence du candidat terme validée seulement au niveau syntaxique</interp>
+          <interp xml:id="DM3">Occurrence du candidat terme validée au niveau syntaxique et disciplinaire</interp>
+          <interp xml:id="DM4">Occurrence du candidat terme validée à tous les niveaux d'annotation. Cette occurrence est considérée comme terminologique</interp>
+        </interpGrp>
+        <span target="#t6" corresp="#entry-79" lemma="Bordes" ana="#noDM"/>
+        <span target="#t11 #t12" corresp="#entry-71" lemma="faciès moustériens" ana="#noDM"/>
+        <span target="#t11" corresp="#entry-69" lemma="faciès" ana="#noDM"/>
+        <span target="#t12" corresp="#entry-47" lemma="moustériens" ana="#noDM"/>
+        <span target="#t23" corresp="#entry-69" lemma="faciès" ana="#noDM"/>
+        <span target="#t30 #t31" corresp="#entry-16581" lemma="présence récurrente" ana="#noDM"/>
+        <span target="#t33" corresp="#entry-16582" lemma="hachereaux" ana="#noDM"/>
+        <span target="#t37 #t38" corresp="#entry-672" lemma="débitage Levallois" ana="#noDM"/>
+        <span target="#t37" corresp="#entry-437" lemma="débitage" ana="#noDM"/>
+        <span target="#t38" corresp="#entry-603" lemma="Levallois" ana="#noDM"/>
+        <span target="#t42" corresp="#entry-5671" lemma="racloirs" ana="#noDM"/>
+        <span target="#t43" corresp="#entry-1130" lemma="Quina" ana="#noDM"/>
+        <span target="#t46 #t47 #t48 #t49" corresp="#entry-14155" lemma="sein de l'outillage" ana="#noDM"/>
+        <span target="#t49" corresp="#entry-673" lemma="outillage" ana="#noDM"/>
+        <span target="#t99 #t100 #t101" corresp="#entry-9701" lemma="méthodes d'analyses" ana="#noDM"/>
+        <span target="#t105 #t106" corresp="#entry-15874" lemma="technologie lithique" ana="#noDM"/>
+        <span target="#t106" corresp="#entry-358" lemma="lithique" ana="#noDM"/>
+        <span target="#t112 #t113" corresp="#entry-5678" lemma="études technologiques" ana="#noDM"/>
+        <span target="#t117" corresp="#entry-16596" lemma="Olha" ana="#noDM"/>
+        <span target="#t118" corresp="#entry-1390" lemma="II" ana="#noDM"/>
+        <span target="#t126" corresp="#entry-16599" lemma="Gatzarria" ana="#noDM"/>
+        <span target="#t141" corresp="#entry-1091" lemma="bibliographiques" ana="#noDM"/>
+        <span target="#t154" corresp="#entry-13893" lemma="homogénéité" ana="#noDM"/>
+        <span target="#t156 #t157" corresp="#entry-16609" lemma="productions techniques" ana="#noDM"/>
+        <span target="#t166" corresp="#entry-1125" lemma="typologiques" ana="#noDM"/>
+        <span target="#t176" corresp="#entry-69" lemma="faciès" ana="#noDM"/>
+        <span target="#t180" corresp="#entry-47" lemma="Moustérien" ana="#noDM"/>
+      </spanGrp>
+      <spanGrp type="syntagmesDefinis">
+        <span target="#t45 #t46 #t47" lemma="au sein de" corresp="#syntita-36378"/>
+        <span target="#t54 #t55 #t56" lemma="par la suite" corresp="#syntita-38371"/>
+        <span target="#t58 #t59 #t60" lemma="remettre en question" corresp="#syntita-65369"/>
+        <span target="#t66 #t67 #t68" lemma="mettre en évidence" corresp="#syntita-90985"/>
+        <span target="#t72 #t73 #t74" lemma="au sein de" corresp="#syntita-36378"/>
+      </spanGrp>
+      <spanGrp type="lexiquesTransdisciplinaires">
+        <span target="#t84 #t85" lemma="question de" corresp="#transdisc-2266"/>
+      </spanGrp>
+    </ns2:annotations>
+  </ns2:stdf>
+  <text>
+    <div type="abstract" xml:lang="fr">
+      <p>
+        <w xml:id="t1">En</w>
+        <w xml:id="t2">1953</w>
+        <w xml:id="t3">,</w>
+        <w xml:id="t4">F</w>
+        <w xml:id="t5">.</w>
+        <w xml:id="t6">Bordes</w>
+        <w xml:id="t7">formalise</w>
+        <w xml:id="t8">la</w>
+        <w xml:id="t9">définition</w>
+        <w xml:id="t10">des</w>
+        <w xml:id="t11">faciès</w>
+        <w xml:id="t12">moustériens</w>
+        <w xml:id="t13">et</w>
+        <w xml:id="t14">en</w>
+        <w xml:id="t15">définit</w>
+        <w xml:id="t16">un</w>
+        <w xml:id="t17">nouveau</w>
+        <w xml:id="t18">,</w>
+        <w xml:id="t19">le</w>
+        <w xml:id="t20">Vasconien</w>
+        <w xml:id="t21">.</w>
+        <w xml:id="t22">Ce</w>
+        <w xml:id="t23">faciès</w>
+        <w xml:id="t24">se</w>
+        <w xml:id="t25">caractérise</w>
+        <w xml:id="t26">selon</w>
+        <w xml:id="t27">lui</w>
+        <w xml:id="t28">par</w>
+        <w xml:id="t29">la</w>
+        <w xml:id="t30">présence</w>
+        <w xml:id="t31">récurrente</w>
+        <w xml:id="t32">de</w>
+        <w xml:id="t33">hachereaux</w>
+        <w xml:id="t34">associés</w>
+        <w xml:id="t35">à</w>
+        <w xml:id="t36">un</w>
+        <w xml:id="t37">débitage</w>
+        <w xml:id="t38">Levallois</w>
+        <w xml:id="t39">et</w>
+        <w xml:id="t40">à</w>
+        <w xml:id="t41">des</w>
+        <w xml:id="t42">racloirs</w>
+        <w xml:id="t43">Quina</w>
+        <w xml:id="t44">dominants</w>
+        <w xml:id="t45">au</w>
+        <w xml:id="t46">sein</w>
+        <w xml:id="t47">de</w>
+        <w xml:id="t48">l'</w>
+        <w xml:id="t49">outillage</w>
+        <w xml:id="t50">.</w>
+        <w xml:id="t51">Le</w>
+        <w xml:id="t52">Vasconien</w>
+        <w xml:id="t53">a</w>
+        <w xml:id="t54">par</w>
+        <w xml:id="t55">la</w>
+        <w xml:id="t56">suite</w>
+        <w xml:id="t57">été</w>
+        <w xml:id="t58">remis</w>
+        <w xml:id="t59">en</w>
+        <w xml:id="t60">question</w>
+        <w xml:id="t61">par</w>
+        <w xml:id="t62">plusieurs</w>
+        <w xml:id="t63">auteurs</w>
+        <w xml:id="t64">qui</w>
+        <w xml:id="t65">ont</w>
+        <w xml:id="t66">mis</w>
+        <w xml:id="t67">en</w>
+        <w xml:id="t68">évidence</w>
+        <w xml:id="t69">une</w>
+        <w xml:id="t70">certaine</w>
+        <w xml:id="t71">hétérogénéité</w>
+        <w xml:id="t72">au</w>
+        <w xml:id="t73">sein</w>
+        <w xml:id="t74">de</w>
+        <w xml:id="t75">cet</w>
+        <w xml:id="t76">ensemble</w>
+        <w xml:id="t77">et</w>
+        <w xml:id="t78">ont</w>
+        <w xml:id="t79">proposé</w>
+        <w xml:id="t80">différentes</w>
+        <w xml:id="t81">interprétations</w>
+        <w xml:id="t82">.</w>
+        <w xml:id="t83">La</w>
+        <w xml:id="t84">question</w>
+        <w xml:id="t85">de</w>
+        <w xml:id="t86">la</w>
+        <w xml:id="t87">signification</w>
+        <w xml:id="t88">du</w>
+        <w xml:id="t89">Vasconien</w>
+        <w xml:id="t90">n'</w>
+        <w xml:id="t91">a</w>
+        <w xml:id="t92">pas</w>
+        <w xml:id="t93">été</w>
+        <w xml:id="t94">révisée</w>
+        <w xml:id="t95">depuis</w>
+        <w xml:id="t96">le</w>
+        <w xml:id="t97">développement</w>
+        <w xml:id="t98">des</w>
+        <w xml:id="t99">méthodes</w>
+        <w xml:id="t100">d'</w>
+        <w xml:id="t101">analyses</w>
+        <w xml:id="t102">liées</w>
+        <w xml:id="t103">à</w>
+        <w xml:id="t104">la</w>
+        <w xml:id="t105">technologie</w>
+        <w xml:id="t106">lithique</w>
+        <w xml:id="t107">.</w>
+        <w xml:id="t108">Nous</w>
+        <w xml:id="t109">présentons</w>
+        <w xml:id="t110">ici</w>
+        <w xml:id="t111">les</w>
+        <w xml:id="t112">études</w>
+        <w xml:id="t113">technologiques</w>
+        <w xml:id="t114">des</w>
+        <w xml:id="t115">industries</w>
+        <w xml:id="t116">d'</w>
+        <w xml:id="t117">Olha</w>
+        <w xml:id="t118">II</w>
+        <w xml:id="t119">(</w>
+        <w xml:id="t120">Cambo-les-Bains</w>
+        <w xml:id="t121">,</w>
+        <w xml:id="t122">Pyrénées-Atlantiques</w>
+        <w xml:id="t123">)</w>
+        <w xml:id="t124">et</w>
+        <w xml:id="t125">de</w>
+        <w xml:id="t126">Gatzarria</w>
+        <w xml:id="t127">(</w>
+        <w xml:id="t128">Ossas-Suhare</w>
+        <w xml:id="t129">,</w>
+        <w xml:id="t130">Pyrénées-Atlantiques</w>
+        <w xml:id="t131">)</w>
+        <w xml:id="t132">.</w>
+        <w xml:id="t133">Les</w>
+        <w xml:id="t134">similitudes</w>
+        <w xml:id="t135">qu'</w>
+        <w xml:id="t136">elles</w>
+        <w xml:id="t137">révèlent</w>
+        <w xml:id="t138">et</w>
+        <w xml:id="t139">les</w>
+        <w xml:id="t140">comparaisons</w>
+        <w xml:id="t141">bibliographiques</w>
+        <w xml:id="t142">avec</w>
+        <w xml:id="t143">plusieurs</w>
+        <w xml:id="t144">séries</w>
+        <w xml:id="t145">des</w>
+        <w xml:id="t146">Monts</w>
+        <w xml:id="t147">cantabriques</w>
+        <w xml:id="t148">permettent</w>
+        <w xml:id="t149">de</w>
+        <w xml:id="t150">réévaluer</w>
+        <w xml:id="t151">le</w>
+        <w xml:id="t152">degré</w>
+        <w xml:id="t153">d'</w>
+        <w xml:id="t154">homogénéité</w>
+        <w xml:id="t155">des</w>
+        <w xml:id="t156">productions</w>
+        <w xml:id="t157">techniques</w>
+        <w xml:id="t158">anciennement</w>
+        <w xml:id="t159">attribuées</w>
+        <w xml:id="t160">au</w>
+        <w xml:id="t161">Vasconien</w>
+        <w xml:id="t162">sur</w>
+        <w xml:id="t163">des</w>
+        <w xml:id="t164">bases</w>
+        <w xml:id="t165">principalement</w>
+        <w xml:id="t166">typologiques</w>
+        <w xml:id="t167">.</w>
+        <w xml:id="t168">Une</w>
+        <w xml:id="t169">nouvelle</w>
+        <w xml:id="t170">interprétation</w>
+        <w xml:id="t171">de</w>
+        <w xml:id="t172">la</w>
+        <w xml:id="t173">signification</w>
+        <w xml:id="t174">de</w>
+        <w xml:id="t175">ce</w>
+        <w xml:id="t176">faciès</w>
+        <w xml:id="t177">au</w>
+        <w xml:id="t178">sein</w>
+        <w xml:id="t179">du</w>
+        <w xml:id="t180">Moustérien</w>
+        <w xml:id="t181">peut</w>
+        <w xml:id="t182">être</w>
+        <w xml:id="t183">proposée</w>
+        <w xml:id="t184">.</w>
+      </p>
+    </div>
+  </text>
+</TEI>

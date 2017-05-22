@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>standOff visualizer</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{url_for('static', filename='jquery.js') }}">\x3C/script>')</script>
+    <script type=text/javascript>
+        $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
+    </script>
+</head>
+<body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        var selected;
+        var id;
+        var json_id = {};
+        $.getJSON($SCRIPT_ROOT + '/initialize',
+        {},
+        function(data) {
+        $.each(data.result['spangrp'], function(index,value){
+            $('.annotation').append("<option value="+ value +">"+value+"</option>")
+        })
+
+        $.each(data.result['files'], function(index,value){
+            $('.file').append("<option value="+ value +">"+value+"</option>")
+        })
+
+       $.getJSON($SCRIPT_ROOT + '/annotations',
+            {
+            type: $('.annotation').val(),
+            file: $('.file').val(),
+            },
+            function(data) {
+            json_id = data.result
+            $('p.text').remove()
+            $('div.controller').remove()
+            $('body').append("<p class=\"text\">" + json_id["text"] + "</p>")
+            $('w').css( "background-color", "rgb(255, 204, 229)")
+            $('body').append("<div class=\"controller\"></div>")
+            selected = $('w').first()
+            id = $('w').first().attr('value')
+            $('.controller').append("<p class=\"occ\">" + selected.html() + "</p>")
+            $('.controller').append("<div class=\"description\">" + json_id["info"][id] + "</p>")
+            })
+        });
+
+        $('select').on('change', function() {
+            $.getJSON($SCRIPT_ROOT + '/annotations',
+            {
+            type: $('.annotation').val(),
+            file: $('.file').val()
+            },
+            function(data) {
+            json_id = data.result
+            $('p.text').remove()
+            $('div.controller').remove()
+            $('body').append("<p class=\"text\">" + json_id["text"] + "</p>")
+            $('w').css( "background-color", "rgb(255, 204, 229)")
+            $('body').append("<div class=\"controller\"></div>")
+            selected = $('w').first()
+            id = $('w').first().attr('value')
+            $('.controller').append("<p class=\"occ\">" + selected.html() + "</p>")
+            $('.controller').append("<div class=\"description\">" + json_id["info"][id] + "</p>")
+            })
+        });
+
+         $('.next').click(function(){
+            selected = $("w[value = '" + id +"' ]").next()
+            if(selected.html() == undefined){
+                selected = $('w').last()
+            }
+
+            id = selected.attr("value")
+
+            $('.occ').replaceWith("<p class=\"occ\">" + selected.html() + "</p>")
+            $('.description').replaceWith("<div class=\"description\">" + json_id["info"][id] + "</div>")
+        });
+
+         $('.prev').click(function(){
+            selected = $("w[value = '" + id +"' ]").prev()
+            if(selected.html() == undefined){
+                selected = $('w').first()
+            }
+
+            id = selected.attr("value")
+
+            $('.occ').replaceWith("<p class=\"occ\">" + selected.html() + "</p>")
+            $('.description').replaceWith("<div class=\"description\">" + json_id["info"][id] + "</div>")
+        });
+    });
+    </script>
+<p>annotations :</p>
+    <select class="file"></select>
+    <select class="annotation"></select>
+    <p class="text"></p>
+    <button class="prev">précédent</button>
+    <button class="next">suivant</button>
+</body>
+</html>
