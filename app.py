@@ -7,7 +7,8 @@ app = Flask(__name__)
 STATIC = 'static/xml/'
 NS = {'xmlns': 'http://www.tei-c.org/ns/1.0'}
 
-@app.route('/initialize')
+
+@app.route('/visualizer/initialize')
 def initialize():
     f_and_t = {'spangrp': []}
     files = glob.glob('static/xml/' + '*.xml')
@@ -22,7 +23,7 @@ def initialize():
     return jsonify(result=f_and_t)
 
 
-@app.route("/annotations")
+@app.route("/visualizer/annotations")
 def annotations():
     s_type = request.args.get('type', "", type=str)
     f = request.args.get('file', "", type=str)

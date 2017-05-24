@@ -3,7 +3,7 @@ $(document).ready(function() {
     var id;
     var json_id = {};
 
-    $.getJSON($SCRIPT_ROOT + '/initialize',
+    $.getJSON($SCRIPT_ROOT + '/visualizer/initialize',
         {},
         function(data) {
             $.each(data.result['spangrp'], function(index,value){
@@ -50,7 +50,7 @@ $(document).ready(function() {
     }
 
     function createAnnotations() {
-        $.getJSON($SCRIPT_ROOT + '/annotations',
+        $.getJSON($SCRIPT_ROOT + '/visualizer/annotations',
         {
             type: $('.selector__menu--annotation').val(),
             file: $('.selector__menu--file').val(),
