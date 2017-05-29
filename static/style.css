@@ -14,8 +14,9 @@
     width:20%
 }
 .text{
+    font-size:1.2em;
+    flex-basis: 80%;
     line-height: 200%;
-    flex-basis: 40%;
     text-align:justify;
 }
 
@@ -24,7 +25,8 @@
 }
 
 .occurrence{
-    margin: 5% 5% 5% 5%;
+    flex-basis: 80%;
+    margin-left: 5%;
 }
 
 .button{
@@ -35,12 +37,18 @@
 .button-container{
     order:3;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
 }
 
 .text-selector{
     display: flex;
     flex-direction:row;
+        justify-content:flex-start;
+    align-content: flex-start;
+}
+
+.tagged{
+    cursor:pointer;
 }
 
 .tagged--selected {

@@ -71,7 +71,7 @@ $(document).ready(function() {
             selected = $('.tagged').first()
             selected.addClass("tagged--selected")
             id = $('.tagged').first().attr('value')
-            $('.occurrence').append("<h2 class=\"title occurrence__title\">info : </h2>")
+            $('.occurrence').append("<h3 class=\"title occurrence__title\">info</h3>")
             $('.occurrence').append("<p class=\"text occurrence__text\">" + selected.html() + "</p>")
             $('.occurrence').append("<div class=\"information occurrence__information\">" + json_id["info"][id] + "</p>")
         })
