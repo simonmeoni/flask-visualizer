@@ -1,54 +1,64 @@
 .root-container{
     display: flex;
-    flex-direction: column;
-    align-content: space-around;
-    margin: 2cm 1cm 3cm 1cm;
+    justify-content:flex-start;
+    align-content: flex-start;
+    flex-direction:column;
+    margin: 2% 2% 2% 2%;
 }
-
-.menu {}
 .selector{
-    order: -3;
+    display: flex;
+    flex-direction:column;
 }
 
-.button{
+.menu {
+    width:20%
 }
-
-.occurrence{}
-
-.title{}
-
-.occurrence__title{}
-
 .text{
-    order: -2;
-    line-height: 200%
+    line-height: 200%;
+    flex-basis: 40%;
+    text-align:justify;
 }
 
 .occurrence__text{
     font-style: italic;
 }
 
-.information {}
-.occurrence__information{}
-.occurrence__words{}
-.occurrence {
+.occurrence{
+    margin: 5% 5% 5% 5%;
 }
 
-.pos{}
-.corresp{}
-
-.tagged{
-    
-    background-color:#f0e1f2;
+.button{
+    width:20%;
+    text-align: center;
 }
 
 .button-container{
+    order:3;
     display: flex;
     flex-direction: row;
-    order: -1;
-    justify-content:space-around;
+}
+
+.text-selector{
+    display: flex;
+    flex-direction:row;
 }
 
 .tagged--selected {
-    border: 1px solid black;
+    border-bottom: 0.5px solid black;
+}
+
+.text__tagged--wordForms{
+    background-color:#f0e1f2;
+}
+
+.text__tagged--candidatsTermes{
+    background-color:#bdd8f9;
+}
+
+.text__tagged--syntagmesDefinis{
+    background-color:#f9e1bd;
+}
+
+.text__tagged--lexiquesTransdisciplinaires{
+    background-color:#f9c3bd;
 }

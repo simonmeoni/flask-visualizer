@@ -33,18 +33,19 @@ def annotations():
     # parse annotation
     json_res["info"] = parse_annotation(doc, s_type, target)
     # inject into text
-    json_res["text"] = inject_annotations(doc, target)
+    json_res["text"] = inject_annotations(doc, s_type, target)
     return jsonify(result=json_res)
 
 
-def inject_annotations(doc, target):
+def inject_annotations(doc, s_type, target):
     text = ""
     cpt = 1
     is_end = True
+
     for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
         if target and w.xpath('@xml:id')[0] in target[0]:
             if is_end:
-                text += "<data class=\"tagged text__tagged\" value=" + str(cpt) + ">" + w.text
+                text += "<data class=\"text__tagged--"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
             else:
                 text += " " + w.text + " "
             target[0].pop(0)

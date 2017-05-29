@@ -22,6 +22,13 @@ $(document).ready(function() {
         createAnnotations()
     });
 
+    $(document).on('click','.tagged',function(){
+        selected.removeClass("tagged--selected")
+        selected = $(this)
+        selected.addClass("tagged--selected")
+        changeInfo()
+    });
+
     $('.button--next').click(function(){
         selected.removeClass("tagged--selected")
         selected = $(".tagged[value = '" + id +"' ]").next()
@@ -59,8 +66,8 @@ $(document).ready(function() {
             json_id = data.result
             $('.text').remove()
             $('.occurrence').remove()
-            $('.root-container').append("<p class=\"text\">" + json_id["text"] + "</p>")
-            $('.root-container').append("<div class=\"occurrence\"></div>")
+            $('.text-selector').append("<p class=\"text\">" + json_id["text"] + "</p>")
+            $('.text-selector').append("<div class=\"occurrence\"></div>")
             selected = $('.tagged').first()
             selected.addClass("tagged--selected")
             id = $('.tagged').first().attr('value')
