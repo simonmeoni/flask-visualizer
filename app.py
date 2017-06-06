@@ -66,16 +66,31 @@ def parse_annotation(doc, s_type, target):
     for s in doc.xpath('//xmlns:spanGrp[@type = \'' + s_type + '\']/xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = "<p class=\"p information__p\"> lemma : <br/>" + s.get("lemma") + "</p>" + "<p class=\"p information__p\">" +\
-                    " corresp : <br/>" + s.get("corresp") + "</p>"
+        info[cpt] = "<p class=\"p information__p\"> lemma : " + s.get("lemma") + "</p>" + "<p class=\"p information__p\">" +\
+                    " corresp : " + s.get("corresp") + "</p>"
         if s_type == "wordForms":
-            info[cpt] += "<p class=\"p information__p\"> pos : <br/>" + s.get('pos') + "</p>"
+            info[cpt] += "<p class=\"p information__p\"> pos : " + s.get('pos') + "</p>"
         cpt += 1
         for t in s.get('target').split(" "):
             list_t.append(t[1:])
         target.append(list_t)
     return info
 
+def parse_wordforms(doc,s_type, target):
+    info = {}
+    return info
+
+def parse_candidatsTermes(doc,s_type, target):
+    info = {}
+    return info
+
+def parse_lexiquesTransdisciplinaire(doc,s_type, target):
+    info = {}
+    return info
+
+def parse_syntagmesDefinis(doc,s_type, target):
+    info = {}
+    return info
 
 @app.route("/visualizer")
 def parse_xml():
