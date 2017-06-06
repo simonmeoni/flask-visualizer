@@ -3,46 +3,56 @@ $(document).ready(function() {
     var id;
     var json_id = {};
 
-    $.getJSON($SCRIPT_ROOT + '/visualizer/initialize',
-        {},
-        function(data) {
+    $.ajax({
+            url: $SCRIPT_ROOT + '/visualizer/initialize',
+            type: 'GET',
+            success: function(data) {
+            console.log("success");
+            },
+            error: function (data) {
+            debugger;
+            alert("error");
+            },
+            complete: function(xhr, textStatus) {
+            console.log("AJAX Request complete -> ", xhr, " -> ", textStatus);
+            }
+        }).done(
+            function(data) {
             $.each(data.result['spangrp'], function(index,value){
-                $('.selector__menu--annotation').append("<option value="+ value +">"+value+"</option>")
+                $('.annotations').append("<option value="+ value +">"+value+"</option>")
             })
 
             $.each(data.result['files'], function(index,value){
-                $('.selector__menu--file').append("<option value="+ value +">"+value+"</option>")
+                $('.file').append("<option value="+ value +">"+value+"</option>")
             })
-
             createAnnotations()
-
         });
+
 
     $('.menu').on('change', function() {
         createAnnotations()
     });
 
     $(document).on('click','.tagged',function(){
-        selected.removeClass("tagged--selected")
+        selected.removeClass("tagged_selected")
         selected = $(this)
-        selected.addClass("tagged--selected")
+        selected.addClass("tagged_selected")
         changeInfo()
     });
 
-    $('.button--next').click(function(){
-        selected.removeClass("tagged--selected")
+    $('.button_next').click(function(){
+        selected.removeClass("tagged_selected")
         selected = $(".tagged[value = '" + id +"' ]").next()
-        selected.addClass("tagged--selected")
         if(selected.html() == undefined){
             selected = $('.tagged').last()
+
         }
         changeInfo()
     });
 
-    $('.button--prev').click(function(){
-        selected.removeClass("tagged--selected")
+    $('.button_prev').click(function(){
+        selected.removeClass("tagged_selected")
         selected = $(".tagged[value = '" + id +"' ]").prev()
-        selected.addClass("tagged--selected")
         if(selected.html() == undefined){
             selected = $('.tagged').first()
         }
@@ -51,30 +61,46 @@ $(document).ready(function() {
 
 
     function changeInfo(){
+        selected.addClass("tagged_selected")
         id = selected.attr("value")
-        $('.occurrence__text').text(selected.html())
-        $('.occurrence__information').replaceWith("<div class=\"occurrence__information\">" + json_id["info"][id] + "</div>")
+        $('.inflectedW').text(selected.html())
+        $('.info').html(json_id["info"][id])
     }
 
     function createAnnotations() {
-        $.getJSON($SCRIPT_ROOT + '/visualizer/annotations',
-        {
-            type: $('.selector__menu--annotation').val(),
-            file: $('.selector__menu--file').val(),
-        },
-        function(data) {
+
+        var data = {};
+        data['type']  = $('.annotations').val();
+        data['file'] = $('.file').val();
+
+        return $.ajax({
+            url: $SCRIPT_ROOT + '/visualizer/annotations',
+            type: 'GET',
+            data: data,
+            success: function(data) {
+            console.log("success");
+            },
+            error: function (data) {
+            debugger;
+            alert("error");
+            },
+            complete: function(xhr, textStatus) {
+            console.log("AJAX Request complete -> ", xhr, " -> ", textStatus);
+            }
+        }).done(
+         function(data) {
             json_id = data.result
             $('.text').remove()
-            $('.occurrence').remove()
-            $('.text-selector').append("<p class=\"text\">" + json_id["text"] + "</p>")
-            $('.text-selector').append("<div class=\"occurrence\"></div>")
+            $('.word').remove()
+            $('.corpus').append("<p class=\"corpus_text text\">" + json_id["text"] + "</p>")
+            $('.corpus').append("<div class=\"corpus_word word\"></div>")
             selected = $('.tagged').first()
-            selected.addClass("tagged--selected")
+            selected.addClass("tagged_selected")
             id = $('.tagged').first().attr('value')
-            $('.occurrence').append("<h3 class=\"title occurrence__title\">info</h3>")
-            $('.occurrence').append("<p class=\"text occurrence__text\">" + selected.html() + "</p>")
-            $('.occurrence').append("<div class=\"information occurrence__information\">" + json_id["info"][id] + "</p>")
-        })
+            $('.word').append("<h3 class=\"word_title title\">info</h3>")
+            $('.word').append("<p class=\"word_inflectedW inflectedW\">" + selected.html() + "</p>")
+            $('.word').append("<div class=\"word_info info\">" + json_id["info"][id] + "</p>")
+        });
     }
 });
 

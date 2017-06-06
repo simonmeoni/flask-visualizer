@@ -18,21 +18,15 @@
 </head>
 <body>
 <script type="text/javascript" src="{{url_for('static', filename='index.js')}}"></script>
-<div class="root-container">
-    <div class="selector">
-            <select class="menu selector__menu--annotation"></select>
-            <select class="menu selector__menu--file"></select>
+<div class="root">
+    <div class="root__menu menu">
+        <p>couche d'annotation : <select class="menu__annotations annotations"></select></p>
+        <p>fichier : <select class="menu__file file"></select></p>
     </div>
-    <div class="text-selector">
-        <div class="occurrence">
-            <p class="text occurrence__text"></p>
-            <div class="information occurence__information"></div>
-        </div>
-        <div class="text"></div>
-    </div>
-    <div class="button-container">
-        <p class="button button--prev button-container__button--prev">précédent</p>
-        <p class="button button--next button-container__button--next">suivant</p>
+    <div class="root__corpus corpus"></div>
+    <div class="root__buttons buttons">
+        <p class="buttons buttons__button button button_prev">préc.</p>
+        <p class="buttons buttons__button button button_next">suiv.</p>
     </div>
 </div>
 </body>

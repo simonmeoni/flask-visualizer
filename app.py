@@ -45,7 +45,7 @@ def inject_annotations(doc, s_type, target):
     for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
         if target and w.xpath('@xml:id')[0] in target[0]:
             if is_end:
-                text += "<data class=\"text__tagged--"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
+                text += "<data class=\"text__tagged_"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
             else:
                 text += " " + w.text + " "
             target[0].pop(0)
@@ -83,4 +83,4 @@ def parse_xml():
 
 
 if __name__ == "__main__":
-    app.run(debug=False, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')
