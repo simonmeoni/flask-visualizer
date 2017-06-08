@@ -132,6 +132,7 @@ def fill_target(list_t, s, target):
         list_t.append(t[1:])
     target.append(list_t)
 
+
 @app.route("/visualizer")
 def parse_xml():
     return render_template('index.html')
