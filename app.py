@@ -45,7 +45,7 @@ def inject_annotations(doc, s_type, target):
     for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
         if target and w.xpath('@xml:id')[0] in target[0]:
             if is_end:
-                text += "<data class=\"text__tagged_"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
+                text += "<data class=\"text_tagged_"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
             else:
                 text += " " + w.text + " "
             target[0].pop(0)
@@ -62,35 +62,75 @@ def inject_annotations(doc, s_type, target):
 
 def parse_annotation(doc, s_type, target):
     info = {}
+
+    if s_type == "candidatsTermes":
+        return parse_candidats_termes(doc, target, info)
+    elif s_type == "wordForms":
+        return parse_wordforms(doc, target, info)
+    elif s_type == "syntagmesDefinis":
+        return parse_syntagmes_definis(doc, target, info)
+    elif s_type == "lexiquesTransdisciplinaire":
+        return parse_candidats_termes(doc, target, info)
+
+    return 0
+
+
+def parse_wordforms(doc, target, info):
+
     cpt = 1
-    for s in doc.xpath('//xmlns:spanGrp[@type = \'' + s_type + '\']/xmlns:span',
+    for s in doc.xpath('//xmlns:spanGrp[@type = \'wordForms\']/xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = "<p class=\"p information__p\"> lemma : " + s.get("lemma") + "</p>" + "<p class=\"p information__p\">" +\
-                    " corresp : " + s.get("corresp") + "</p>"
-        if s_type == "wordForms":
-            info[cpt] += "<p class=\"p information__p\"> pos : " + s.get('pos') + "</p>"
+        info[cpt] = {'lemma': s.get("lemma"), 'pos': s.get("pos")}
         cpt += 1
-        for t in s.get('target').split(" "):
-            list_t.append(t[1:])
-        target.append(list_t)
+        fill_target(list_t, s, target)
+
     return info
 
-def parse_wordforms(doc,s_type, target):
-    info = {}
+
+def parse_candidats_termes(doc, target, info):
+
+    cpt = 1
+    for s in doc.xpath('//xmlns:spanGrp[@type = \'candidatsTermes\']/xmlns:span',
+                       namespaces=NS):
+        list_t = []
+        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        cpt += 1
+        fill_target(list_t, s, target)
+
     return info
 
-def parse_candidatsTermes(doc,s_type, target):
-    info = {}
+
+def parse_lexiques_transdisciplinaire(doc, target, info):
+
+    cpt = 1
+    for s in doc.xpath('//xmlns:spanGrp[@type = \'lexiquesTransdisciplinaires\']/xmlns:span',
+                       namespaces=NS):
+        list_t = []
+        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        cpt += 1
+        fill_target(list_t, s, target)
+
     return info
 
-def parse_lexiquesTransdisciplinaire(doc,s_type, target):
-    info = {}
+
+def parse_syntagmes_definis(doc, target, info):
+
+    cpt = 1
+    for s in doc.xpath('//xmlns:spanGrp[@type = \'syntagmesDefinis\']/xmlns:span',
+                       namespaces=NS):
+        list_t = []
+        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        cpt += 1
+        fill_target(list_t, s, target)
+
     return info
 
-def parse_syntagmesDefinis(doc,s_type, target):
-    info = {}
-    return info
+
+def fill_target(list_t, s, target):
+    for t in s.get('target').split(" "):
+        list_t.append(t[1:])
+    target.append(list_t)
 
 @app.route("/visualizer")
 def parse_xml():

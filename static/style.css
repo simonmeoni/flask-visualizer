@@ -20,7 +20,7 @@
     order:1;
     margin-top: 2em;
     font-size:0.95em;
-    line-height: 200%;
+    line-height: 250%;
     text-align:justify;
 }
 
@@ -32,7 +32,6 @@
     order:0;
     border-bottom: 1px dotted #afafaf;
     border-top: 1px dotted #afafaf;
-
 }
 
 .buttons{
@@ -63,18 +62,23 @@
     border-bottom: 0.5px solid black;
 }
 
-.text__tagged_wordForms{
+.text_tagged_wordForms{
     background-color:#f0e1f2;
 }
 
-.text__tagged_candidatsTermes{
+.text_tagged_candidatsTermes{
     background-color:#bdd8f9;
 }
 
-.text__tagged_syntagmesDefinis{
+.text_tagged_syntagmesDefinis{
     background-color:#f9e1bd;
 }
 
-.text__tagged_lexiquesTransdisciplinaires{
+.text_tagged_lexiquesTransdisciplinaires{
     background-color:#f9c3bd;
+}
+
+.text {
+    overflow: scroll;
+    height:600px;
 }
