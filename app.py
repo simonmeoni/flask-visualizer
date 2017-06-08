@@ -1,11 +1,15 @@
 import glob
 import os
+import json
 
 from flask import Flask, render_template, request, jsonify
 import lxml.etree
 app = Flask(__name__)
 STATIC = 'static/xml/'
 NS = {'xmlns': 'http://www.tei-c.org/ns/1.0'}
+
+with open("static/json/lexique-transdisciplinaire.json") as data_file:
+    lt = json.load(data_file)
 
 
 @app.route('/visualizer/initialize')
@@ -69,8 +73,8 @@ def parse_annotation(doc, s_type, target):
         return parse_wordforms(doc, target, info)
     elif s_type == "syntagmesDefinis":
         return parse_syntagmes_definis(doc, target, info)
-    elif s_type == "lexiquesTransdisciplinaire":
-        return parse_candidats_termes(doc, target, info)
+    elif s_type == "lexiquesTransdisciplinaires":
+        return parse_lexiques_transdisciplinaire(doc, target, info)
 
     return 0
 
