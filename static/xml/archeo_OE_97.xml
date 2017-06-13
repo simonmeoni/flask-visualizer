@@ -473,7 +473,7 @@
         <span target="#t128 #t129 #t130" lemma="occupation des sols" corresp="#syntita-26330"/>
       </spanGrp>
       <spanGrp type="lexiquesTransdisciplinaires">
-        <span target="#t106 #t107" lemma="article présent" corresp="#transdisc-2253"/>
+        <span target="#t106 #t107" lemma="article présent" corresp="#transdisc-1236 #transdisc-1235"/>
         <span target="#t116 #t117" lemma="au début" corresp="#transdisc-1344"/>
       </spanGrp>
     </ns2:annotations>

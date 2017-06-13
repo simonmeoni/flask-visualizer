@@ -13,38 +13,72 @@
 .corpus {
     flex-basis: 80%;
     display: flex;
-    flex-direction:column;
+    flex-direction:row;
+    align-content: stretch;
 }
 
 .text{
-    order:1;
-    margin-top: 2em;
+    order:0;
+    margin-top: 1em;
     font-size:0.95em;
     line-height: 250%;
     text-align:justify;
+    flex-basis: 50%;
+
 }
 
 .inflectedW{
     font-style: italic;
 }
 
+ /* Style the buttons that are used to open and close the accordion panel */
+.button_accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.button_accordion {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel_inactive {
+    display: none;
+}
+
+.button_accordion_lst {
+    background-color:#f9c3bd;
+}
+
+.panel_active {
+    padding: 0 18px;
+    background-color: white;
+}
+
 .word{
-    order:0;
-    border-bottom: 1px dotted #afafaf;
-    border-top: 1px dotted #afafaf;
+    order:1;
+    flex-basis: 50%;
+    margin-left: 3%;
+    border-left: 1px dotted #afafaf;
+    padding-left: 10px;
+    height: 300%;
 }
 
 .buttons{
     order:3;
     display: flex;
     flex-direction: row;
-    justify-content:center;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
     flex-basis: 10%;
-
-
 }
 
 .text-selector{
@@ -79,6 +113,5 @@
 }
 
 .text {
-    overflow: scroll;
-    height:600px;
+    overflow: auto;
 }

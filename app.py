@@ -2,14 +2,18 @@ import glob
 import os
 import json
 
+import collections
 from flask import Flask, render_template, request, jsonify
 import lxml.etree
 app = Flask(__name__)
 STATIC = 'static/xml/'
 NS = {'xmlns': 'http://www.tei-c.org/ns/1.0'}
+lt_hash = {}
 
 with open("static/json/lexique-transdisciplinaire.json") as data_file:
     lt = json.load(data_file)
+    for i in lt:
+        lt_hash[i['formeId']] = i
 
 
 @app.route('/visualizer/initialize')
@@ -42,26 +46,22 @@ def annotations():
 
 
 def inject_annotations(doc, s_type, target):
-    text = ""
     cpt = 1
-    is_end = True
-
+    dict_t = collections.OrderedDict()
+    text = ""
     for w in doc.xpath('//xmlns:text//xmlns:w', namespaces=NS):
-        if target and w.xpath('@xml:id')[0] in target[0]:
-            if is_end:
-                text += "<data class=\"text_tagged_"+s_type+" tagged\" value=" + str(cpt) + ">" + w.text
-            else:
-                text += " " + w.text + " "
-            target[0].pop(0)
-            is_end = False
-            if not target[0]:
-                target.pop(0)
-                text += "</data> "
-                cpt += 1
-                is_end = True
-        else:
-            text += w.text + " "
-    return text
+        dict_t[w.xpath("@xml:id")[0]] = {"begin": "", "text": w.text, "end": ""}
+    for t in target:
+        dict_t[t[0]]["begin"] += "<data class=\"text_tagged_"+s_type+" tagged\" value=" + str(cpt) + ">"
+        dict_t[t[-1]]["end"] += "</data>"
+        if len(t) > 1 and dict_t[t[0]]["end"] != "":
+            dict_t[t[0]]["end"] += "</data>"
+            dict_t[t[-1]]["begin"] += "<data class =\"text_tagged_"+s_type+" tagged\" value=" + str(cpt) + ">"
+            dict_t[t[-1]]["end"] += "</data>"
+        cpt += 1
+    for el in list(dict_t.items()):
+        text += el[1]["begin"] + el[1]["text"] + el[1]["end"] + " "
+    return text[0:-2]
 
 
 def parse_annotation(doc, s_type, target):
@@ -111,7 +111,13 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
     for s in doc.xpath('//xmlns:spanGrp[@type = \'lexiquesTransdisciplinaires\']/xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        lst_id = 1
+        info[cpt] = {}
+        for c in s.get("corresp").split(" "):
+            entry = lt_hash[int(c.split("-")[-1])]
+            info[cpt]["#lst"+str(lst_id)] = {"lemma": s.get("lemma"), "corresp": c, "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
+                         "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
+            lst_id += 1
         cpt += 1
         fill_target(list_t, s, target)
 
