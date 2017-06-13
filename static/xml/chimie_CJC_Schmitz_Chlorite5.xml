@@ -216,30 +216,41 @@
         <span target="#t121" corresp="#entry-322" lemma="modèle" ana="#noDM"/>
       </spanGrp>
       <spanGrp type="syntagmesDefinis">
-        <span target="#t43 #t44 #t45 #t46 #t47 #t48" lemma="il est possible de" corresp="#syntita-90274"/>
-        <span target="#t65 #t66" lemma="par contre" corresp="#syntita-10444"/>
-        <span target="#t68 #t69 #t70" lemma="en présence de" corresp="#syntita-54009"/>
-        <span target="#t68 #t69 #t70" lemma="en présence de" corresp="#syntita-54010"/>
+        <span target="#t43 #t44 #t45 #t46 #t47 #t48" lemma="il est possible de" corresp="#orig_39768"/>
+        <span target="#t65 #t66" lemma="par contre" corresp="#orig_12901"/>
+        <span target="#t68 #t69 #t70" lemma="en présence de" corresp="#orig_40536"/>
+        <span target="#t68 #t69 #t70" lemma="en présence de" corresp="#orig_40536"/>
       </spanGrp>
       <spanGrp type="lexiquesTransdisciplinaires">
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-			
-</spanGrp>
+        <span target="#t3" lemma="solution" corresp="#lst-1683"/>
+        <span target="#t11" lemma="observer" corresp="#lst-1201"/>
+        <span target="#t11" lemma="observer" corresp="#lst-1202"/>
+        <span target="#t21" lemma="conduire" corresp="#lst-874"/>
+        <span target="#t21" lemma="conduire" corresp="#lst-875"/>
+        <span target="#t21" lemma="conduire" corresp="#lst-876"/>
+        <span target="#t21" lemma="conduire" corresp="#lst-877"/>
+        <span target="#t24" lemma="production" corresp="#lst-1864"/>
+        <span target="#t25" lemma="rapide" corresp="#lst-684"/>
+        <span target="#t30" lemma="caractéristique" corresp="#lst-460"/>
+        <span target="#t30" lemma="caractéristique" corresp="#lst-1573"/>
+        <span target="#t36" lemma="décrire" corresp="#lst-930"/>
+        <span target="#t36" lemma="décrire" corresp="#lst-931"/>
+        <span target="#t36" lemma="décrire" corresp="#lst-932"/>
+        <span target="#t40" lemma="système" corresp="#lst-1718"/>
+        <span target="#t47" lemma="possible" corresp="#lst-656"/>
+        <span target="#t49" lemma="mesurer" corresp="#lst-1177"/>
+        <span target="#t49" lemma="mesurer" corresp="#lst-1178"/>
+        <span target="#t65 #t66" lemma="par contre" corresp="#lst-67"/>
+        <span target="#t67" lemma="possible" corresp="#lst-656"/>
+        <span target="#t69" lemma="présence" corresp="#lst-2049"/>
+        <span target="#t82" lemma="obtenir" corresp="#lst-1203"/>
+        <span target="#t82" lemma="obtenir" corresp="#lst-1204"/>
+        <span target="#t82" lemma="obtenir" corresp="#lst-1205"/>
+        <span target="#t107" lemma="absence" corresp="#lst-1554"/>
+        <span target="#t107" lemma="absence" corresp="#lst-2046"/>
+        <span target="#t121" lemma="modèle" corresp="#lst-1667"/>
+        <span target="#t121" lemma="modèle" corresp="#lst-1668"/>
+      </spanGrp>
     </ns2:annotations>
   </ns2:stdf>
   <text xml:lang="fr">
