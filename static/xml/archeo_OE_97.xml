@@ -463,18 +463,82 @@
         <span target="#t242" corresp="#entry-21194" lemma="14C" ana="#noDM"/>
       </spanGrp>
       <spanGrp type="syntagmesDefinis">
-        <span target="#t2 #t3 #t4" lemma="programme de recherche" corresp="#syntita-71100"/>
-        <span target="#t8 #t9 #t10" lemma="occupation des sols" corresp="#syntita-84824"/>
-        <span target="#t8 #t9 #t10" lemma="occupation des sols" corresp="#syntita-26330"/>
-        <span target="#t18 #t19" lemma="Moyen Âge" corresp="#syntita-66214"/>
-        <span target="#t58 #t59 #t60" lemma="mettre en évidence" corresp="#syntita-90985"/>
-        <span target="#t96 #t97" lemma="au travers" corresp="#syntita-80500"/>
-        <span target="#t128 #t129 #t130" lemma="occupation des sols" corresp="#syntita-84824"/>
-        <span target="#t128 #t129 #t130" lemma="occupation des sols" corresp="#syntita-26330"/>
+        <span target="#t2 #t3 #t4" lemma="programme de recherche" corresp="#orig-41127"/>
+        <span target="#t8 #t9 #t10" lemma="occupation des sols" corresp="#orig-33594"/>
+        <span target="#t8 #t9 #t10" lemma="occupation des sols" corresp="#orig-33595"/>
+        <span target="#t18 #t19" lemma="Moyen Âge" corresp="#orig-871"/>
+        <span target="#t18 #t19" lemma="Moyen Âge" corresp="#orig-32050"/>
+        <span target="#t58 #t59 #t60" lemma="mettre en évidence" corresp="#orig-19345"/>
+        <span target="#t96 #t97" lemma="au travers" corresp="#orig-53295"/>
+        <span target="#t128 #t129 #t130" lemma="occupation des sols" corresp="#orig-33594"/>
+        <span target="#t128 #t129 #t130" lemma="occupation des sols" corresp="#orig-33595"/>
+        <span target="#t202 #t203 #t204 #t205" lemma="à la lumière de" corresp="#orig-28295"></span>
       </spanGrp>
       <spanGrp type="lexiquesTransdisciplinaires">
-        <span target="#t106 #t107" lemma="article présent" corresp="#transdisc-1236 #transdisc-1235"/>
-        <span target="#t116 #t117" lemma="au début" corresp="#transdisc-1344"/>
+        <span target="#t2" lemma="programme" corresp="#lst-1710"/>
+        <span target="#t2" lemma="programme" corresp="#lst-1710"/>
+        <span target="#t4" lemma="recherche" corresp="#lst-1713"/>
+        <span target="#t4" lemma="recherche" corresp="#lst-1943"/>
+        <span target="#t27" lemma="mener" corresp="#lst-1171"/>
+        <span target="#t27" lemma="mener" corresp="#lst-1172"/>
+        <span target="#t27" lemma="mener" corresp="#lst-1173"/>
+        <span target="#t27" lemma="mener" corresp="#lst-1174"/>
+        <span target="#t51" lemma="phase" corresp="#lst-2043"/>
+        <span target="#t56" lemma="activité" corresp="#lst-1907"/>
+        <span target="#t80" lemma="distinguer" corresp="#lst-975"/>
+        <span target="#t80" lemma="distinguer" corresp="#lst-976"/>
+        <span target="#t80" lemma="distinguer" corresp="#lst-977"/>
+        <span target="#t93" lemma="période" corresp="#lst-2042"/>
+        <span target="#t99" lemma="premier" corresp="#lst-664"/>
+        <span target="#t100" lemma="donnée" corresp="#lst-1740"/>
+        <span target="#t106" lemma="article" corresp="#lst-1472"/>
+        <span target="#t107" lemma="présenter" corresp="#lst-1257"/>
+        <span target="#t107" lemma="présenter" corresp="#lst-1258"/>
+        <span target="#t107" lemma="présenter" corresp="#lst-1259"/>
+        <span target="#t107" lemma="présenter" corresp="#lst-1260"/>
+        <span target="#t111" lemma="milieu" corresp="#lst-1523"/>
+        <span target="#t111" lemma="milieu" corresp="#lst-1787"/>
+        <span target="#t124" lemma="grand" corresp="#lst-569"/>
+        <span target="#t124" lemma="grand" corresp="#lst-570"/>
+        <span target="#t125" lemma="caractéristique" corresp="#lst-460"/>
+        <span target="#t125" lemma="caractéristique" corresp="#lst-1573"/>
+        <span target="#t134" lemma="originalité" corresp="#lst-1626"/>
+        <span target="#t137" lemma="importance" corresp="#lst-1612"/>
+        <span target="#t140" lemma="activité" corresp="#lst-1907"/>
+        <span target="#t141" lemma="humain" corresp="#lst-576"/>
+        <span target="#t144" lemma="zone" corresp="#lst-1532"/>
+        <span target="#t156" lemma="correspondre" corresp="#lst-922"/>
+        <span target="#t159" lemma="multiplication" corresp="#lst-1878"/>
+        <span target="#t159" lemma="multiplication" corresp="#lst-1947"/>
+        <span target="#t163" lemma="marquer" corresp="#lst-1164"/>
+        <span target="#t163" lemma="marquer" corresp="#lst-1165"/>
+        <span target="#t163" lemma="marquer" corresp="#lst-1166"/>
+        <span target="#t163" lemma="marquer" corresp="#lst-1167"/>
+        <span target="#t163" lemma="marquer" corresp="#lst-1168"/>
+        <span target="#t165" lemma="façon" corresp="#lst-1619"/>
+        <span target="#t166" lemma="évident" corresp="#lst-535"/>
+        <span target="#t168" lemma="rupture" corresp="#lst-1589"/>
+        <span target="#t174" lemma="espace" corresp="#lst-1522"/>
+        <span target="#t184" lemma="activité" corresp="#lst-1907"/>
+        <span target="#t185" lemma="humain" corresp="#lst-576"/>
+        <span target="#t188" lemma="entretien" corresp="#lst-1938"/>
+        <span target="#t199" lemma="paraître" corresp="#lst-1224"/>
+        <span target="#t199" lemma="paraître" corresp="#lst-1225"/>
+        <span target="#t199" lemma="paraître" corresp="#lst-1226"/>
+        <span target="#t199" lemma="paraître" corresp="#lst-1227"/>
+        <span target="#t206" lemma="donnée" corresp="#lst-1740"/>
+        <span target="#t208" lemma="terrain" corresp="#lst-1528"/>
+        <span target="#t208" lemma="terrain" corresp="#lst-1529"/>
+        <span target="#t213" lemma="évolution" corresp="#lst-1891"/>
+        <span target="#t213" lemma="évolution" corresp="#lst-1892"/>
+        <span target="#t215" lemma="apparaître" corresp="#lst-799"/>
+        <span target="#t215" lemma="apparaître" corresp="#lst-800"/>
+        <span target="#t215" lemma="apparaître" corresp="#lst-801"/>
+        <span target="#t215" lemma="apparaître" corresp="#lst-802"/>
+        <span target="#t223" lemma="période" corresp="#lst-2042"/>
+        <span target="#t224" lemma="concerner" corresp="#lst-868"/>
+        <span target="#t226" lemma="apparition" corresp="#lst-1902"/>
+        <span target="#t228" lemma="structure" corresp="#lst-1717"/>
       </spanGrp>
     </ns2:annotations>
   </ns2:stdf>
