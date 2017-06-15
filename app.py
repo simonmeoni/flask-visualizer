@@ -113,6 +113,7 @@ def parse_candidats_termes(doc, target, info):
 def parse_lexiques_transdisciplinaire(doc, target, info):
 
     cpt = 1
+    mem_target = ""
     for s in doc.xpath('//ns:standOff[@type = \'lexiquesTransdisciplinaires\']//xmlns:span',
                        namespaces=NS):
         list_t = []
@@ -121,15 +122,14 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
         entry = lt_hash[int(c.split("-")[-1])]
         lst_id = 1
         libelle = s.xpath(".//xmlns:string", namespaces=NS)[0].text
-        if cpt > 1 and info[cpt-1]["#lst" + str(lst_id)]["libelle"] == libelle:
+        if cpt > 1 and mem_target == s.get("target") and info[cpt-1]["#lst" + str(lst_id)]["libelle"] == libelle:
             while "#lst" + str(lst_id) in info[cpt - 1]:
                 lst_id += 1
             cpt -= 1
-
+        mem_target = s.get("target")
         info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "corresp": c,
                                          "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
                      "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
-
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -138,19 +138,21 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
 
 def parse_syntagmes_definis(doc, target, info):
     cpt = 1
+    mem_target = ""
     for s in doc.xpath('//ns:standOff[@type = \'syntagmesDefinis\']//xmlns:span',
-                       namespaces=NS):
+               namespaces=NS):
         list_t = []
         info[cpt] = {}
         c = s.get("corresp")
         entry = ph_hash[int(c.split("-")[-1])]
         lst_id = 1
         libelle = s.xpath(".//xmlns:string", namespaces=NS)[0].text
-        if cpt > 1 and info[cpt - 1]["#phraseo" + str(lst_id)]["libelle"] == libelle:
+        if cpt > 1 and mem_target == s.get("target") and info[cpt - 1]["#phraseo" + str(lst_id)]["libelle"] == libelle:
             while "#phraseo" + str(lst_id) in info[cpt - 1]:
                 lst_id += 1
             cpt -= 1
         info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "corresp": c, "définition": entry["definition"]["text"]}
+        mem_target = s.get("target")
         cpt += 1
         fill_target(list_t, s, target)
 
