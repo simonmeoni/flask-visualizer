@@ -1665,84 +1665,84 @@
 		        désambiguïsation</interp>
     </interpGrp>
     <ns:listAnnotation>
-      <span target="#t10 #t11" corresp="#TS2.0-entry-3018">
+      <span target="#t10 #t11" corresp="#TS2.0-entry-7057">
         <fs>
           <f name="inflexionWord">
             <string>langue naturelle</string>
           </f>
         </fs>
       </span>
-      <span target="#t21 #t22" corresp="#TS2.0-entry-24489">
+      <span target="#t21 #t22" corresp="#TS2.0-entry-23395">
         <fs>
           <f name="inflexionWord">
             <string>enseignement linguistique</string>
           </f>
         </fs>
       </span>
-      <span target="#t22" corresp="#TS2.0-entry-27">
+      <span target="#t22" corresp="#TS2.0-entry-43">
         <fs>
           <f name="inflexionWord">
             <string>linguistique</string>
           </f>
         </fs>
       </span>
-      <span target="#t36 #t37 #t38" corresp="#TS2.0-entry-7352">
+      <span target="#t36 #t37 #t38" corresp="#TS2.0-entry-1120">
         <fs>
           <f name="inflexionWord">
             <string>l’anglais juridique</string>
           </f>
         </fs>
       </span>
-      <span target="#t36 #t37" corresp="#TS2.0-entry-5482">
+      <span target="#t36 #t37" corresp="#TS2.0-entry-895">
         <fs>
           <f name="inflexionWord">
             <string>l’anglais</string>
           </f>
         </fs>
       </span>
-      <span target="#t62 #t63" corresp="#TS2.0-entry-24492">
+      <span target="#t62 #t63" corresp="#TS2.0-entry-49535">
         <fs>
           <f name="inflexionWord">
             <string>formes rhétoriques</string>
           </f>
         </fs>
       </span>
-      <span target="#t75 #t76" corresp="#TS2.0-entry-10250">
+      <span target="#t75 #t76" corresp="#TS2.0-entry-1106">
         <fs>
           <f name="inflexionWord">
             <string>common law</string>
           </f>
         </fs>
       </span>
-      <span target="#t75" corresp="#TS2.0-entry-10251">
+      <span target="#t75" corresp="#TS2.0-entry-1107">
         <fs>
           <f name="inflexionWord">
             <string>common</string>
           </f>
         </fs>
       </span>
-      <span target="#t76" corresp="#TS2.0-entry-755">
+      <span target="#t76" corresp="#TS2.0-entry-1105">
         <fs>
           <f name="inflexionWord">
             <string>law</string>
           </f>
         </fs>
       </span>
-      <span target="#t100" corresp="#TS2.0-entry-27">
+      <span target="#t100" corresp="#TS2.0-entry-43">
         <fs>
           <f name="inflexionWord">
             <string>linguistique</string>
           </f>
         </fs>
       </span>
-      <span target="#t122 #t123" corresp="#TS2.0-entry-932">
+      <span target="#t122 #t123" corresp="#TS2.0-entry-16543">
         <fs>
           <f name="inflexionWord">
             <string>critères d’</string>
           </f>
         </fs>
       </span>
-      <span target="#t145 #t146" corresp="#TS2.0-entry-14096">
+      <span target="#t145 #t146" corresp="#TS2.0-entry-49537">
         <fs>
           <f name="inflexionWord">
             <string>disciplines universitaires</string>
@@ -1804,20 +1804,6 @@
         <fs>
           <f name="inflexionWord">
             <string>pour ce qui concerne QUELQUECHOSE</string>
-          </f>
-        </fs>
-      </span>
-      <span target="#t25 #t26 #t27 #t28" corresp="#phraseo-43340">
-        <fs>
-          <f name="inflexionWord">
-            <string>pour ce qui concerne QUELQUECHOSE</string>
-          </f>
-        </fs>
-      </span>
-      <span target="#t85 #t86 #t87" corresp="#phraseo-21195">
-        <fs>
-          <f name="inflexionWord">
-            <string>à la fois</string>
           </f>
         </fs>
       </span>
