@@ -7,14 +7,19 @@ from flask import Flask, render_template, request, jsonify
 import lxml.etree
 app = Flask(__name__)
 STATIC = 'static/xml/'
-NS = {'xmlns': 'http://www.tei-c.org/ns/1.0'}
+NS = {'xmlns': 'http://www.tei-c.org/ns/1.0', 'ns': "http://standoff.proposal" }
 lt_hash = {}
+ph_hash = {}
 
 with open("static/json/lexique-transdisciplinaire.json") as data_file:
     lt = json.load(data_file)
     for i in lt:
         lt_hash[i['formeId']] = i
 
+with open("static/json/phraseo.json") as data_file:
+    ph = json.load(data_file)
+    for i in ph:
+        ph_hash[i['formeId']] = i
 
 @app.route('/visualizer/initialize')
 def initialize():
@@ -23,7 +28,7 @@ def initialize():
 
     # get the different type of span
     doc = lxml.etree.parse(files[0])
-    for t in doc.xpath('//xmlns:spanGrp', namespaces=NS):
+    for t in doc.xpath('//ns:standOff', namespaces=NS):
         f_and_t['spangrp'].append(t.get('type'))
 
     # get files of the corpus
@@ -82,10 +87,10 @@ def parse_annotation(doc, s_type, target):
 def parse_wordforms(doc, target, info):
 
     cpt = 1
-    for s in doc.xpath('//xmlns:spanGrp[@type = \'wordForms\']/xmlns:span',
+    for s in doc.xpath('//ns:standOff[@type = \'wordForms\']//xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = {'lemma': s.get("lemma"), 'pos': s.get("pos")}
+        info[cpt] = {'lemma': s.xpath(".//xmlns:string", namespaces=NS)[0].text, 'pos': s.xpath(".//xmlns:symbol", namespaces=NS)[0].get("value")}
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -95,10 +100,10 @@ def parse_wordforms(doc, target, info):
 def parse_candidats_termes(doc, target, info):
 
     cpt = 1
-    for s in doc.xpath('//xmlns:spanGrp[@type = \'candidatsTermes\']/xmlns:span',
+    for s in doc.xpath('//ns:standOff[@type = \'candidatsTermes\']//xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        info[cpt] = {"lemma": s.xpath(".//xmlns:string", namespaces=NS)[0].text, "corresp": s.get("corresp")}
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -108,16 +113,23 @@ def parse_candidats_termes(doc, target, info):
 def parse_lexiques_transdisciplinaire(doc, target, info):
 
     cpt = 1
-    for s in doc.xpath('//xmlns:spanGrp[@type = \'lexiquesTransdisciplinaires\']/xmlns:span',
+    for s in doc.xpath('//ns:standOff[@type = \'lexiquesTransdisciplinaires\']//xmlns:span',
                        namespaces=NS):
         list_t = []
-        lst_id = 1
         info[cpt] = {}
-        for c in s.get("corresp").split(" "):
-            entry = lt_hash[int(c.split("-")[-1])]
-            info[cpt]["#lst"+str(lst_id)] = {"lemma": s.get("lemma"), "corresp": c, "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
-                         "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
-            lst_id += 1
+        c = s.get("corresp")
+        entry = lt_hash[int(c.split("-")[-1])]
+        lst_id = 1
+        libelle = s.xpath(".//xmlns:string", namespaces=NS)[0].text
+        if cpt > 1 and info[cpt-1]["#lst" + str(lst_id)]["libelle"] == libelle:
+            while "#lst" + str(lst_id) in info[cpt - 1]:
+                lst_id += 1
+            cpt -= 1
+
+        info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "corresp": c,
+                                         "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
+                     "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
+
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -127,10 +139,19 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
 def parse_syntagmes_definis(doc, target, info):
 
     cpt = 1
-    for s in doc.xpath('//xmlns:spanGrp[@type = \'syntagmesDefinis\']/xmlns:span',
+    for s in doc.xpath('//ns:standOff[@type = \'syntagmesDefinis\']//xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = {"lemma": s.get("lemma"), "corresp": s.get("corresp")}
+        info[cpt] = {}
+        c = s.get("corresp")
+        entry = ph_hash[int(c.split("-")[-1])]
+        lst_id = 1
+        libelle = s.xpath(".//xmlns:string", namespaces=NS)[0].text
+        if cpt > 1 and info[cpt - 1]["#phraseo" + str(lst_id)]["libelle"] == libelle:
+            while "#phraseo" + str(lst_id) in info[cpt - 1]:
+                lst_id += 1
+            cpt -= 1
+        info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "corresp": c, "définition": entry["definition"]["text"]}
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -140,7 +161,8 @@ def parse_syntagmes_definis(doc, target, info):
 def fill_target(list_t, s, target):
     for t in s.get('target').split(" "):
         list_t.append(t[1:])
-    target.append(list_t)
+    if list_t not in target :
+        target.append(list_t)
 
 
 @app.route("/visualizer")

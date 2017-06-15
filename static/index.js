@@ -120,7 +120,7 @@ $(document).ready(function() {
         });
         console.log(type)
         info += "</p>"
-        if (type != "lexiquesTransdisciplinaires"){
+        if (type != "lexiquesTransdisciplinaires" && type != "syntagmesDefinis"){
             $.each(json_id['info'][id], function(index,value){
               info += "<button class=\"button_accordion\">" + index + "</button>"
               if (cpt > 2) {
