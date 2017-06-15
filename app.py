@@ -19,7 +19,7 @@ with open("static/json/lexique-transdisciplinaire.json") as data_file:
 with open("static/json/phraseo.json") as data_file:
     ph = json.load(data_file)
     for i in ph:
-        ph_hash[i['formeId']] = i
+        ph_hash[int(i['phraseoEntryId'].split("_")[-1])] = i
 
 @app.route('/visualizer/initialize')
 def initialize():
@@ -137,7 +137,6 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
 
 
 def parse_syntagmes_definis(doc, target, info):
-
     cpt = 1
     for s in doc.xpath('//ns:standOff[@type = \'syntagmesDefinis\']//xmlns:span',
                        namespaces=NS):
