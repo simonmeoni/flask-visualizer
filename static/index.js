@@ -141,7 +141,7 @@ $(document).ready(function() {
 
             $.each(value, function(index2,value2){
                 console.log(index2);
-                        if (index2 != "libelle") {
+                if (index2 != "libelle") {
 
               info += "<button class=\"button_accordion\">" + index2 + "</button>"
               if (cpt > 2) {

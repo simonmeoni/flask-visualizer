@@ -103,7 +103,7 @@ def parse_candidats_termes(doc, target, info):
     for s in doc.xpath('//ns:standOff[@type = \'candidatsTermes\']//xmlns:span',
                        namespaces=NS):
         list_t = []
-        info[cpt] = {"lemma": s.xpath(".//xmlns:string", namespaces=NS)[0].text, "corresp": s.get("corresp")}
+        info[cpt] = {"A_identifiant": s.get("corresp"), "B_forme": s.xpath(".//xmlns:string", namespaces=NS)[0].text}
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -130,9 +130,9 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
         mem_target = s.get("target")
         for fi in entry["words"]:
             initial_form += fi["formeInitiale"] + " "
-        info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "forme initiale": initial_form, "corresp": c,
-                                         "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
-                     "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
+        info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "B_identifiant": c, "C_forme_lemmatisee": initial_form,
+                                         "D_categorie_grammaticale": entry["categorie"], "E_classe_semantique": entry["classe"],
+                     "F_sous-classe_semantique": entry["sous_classe"], "G_définition": entry["definition"]}
         cpt += 1
         fill_target(list_t, s, target)
 
@@ -157,7 +157,8 @@ def parse_syntagmes_definis(doc, target, info):
             cpt -= 1
         for fi in entry["words"]:
             initial_form += fi["formeInitiale"] + " "
-        info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "forme initiale": initial_form, "corresp": c, "définition": entry["definition"]["text"]}
+        info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "B_identifiant": c, "C_forme_TLFi": initial_form,
+                                               "D_definition": entry["definition"]["text"]}
         mem_target = s.get("target")
         cpt += 1
         fill_target(list_t, s, target)
