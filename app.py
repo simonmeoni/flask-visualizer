@@ -117,6 +117,7 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
     for s in doc.xpath('//ns:standOff[@type = \'lexiquesTransdisciplinaires\']//xmlns:span',
                        namespaces=NS):
         list_t = []
+        initial_form = ""
         info[cpt] = {}
         c = s.get("corresp")
         entry = lt_hash[int(c.split("-")[-1])]
@@ -127,7 +128,9 @@ def parse_lexiques_transdisciplinaire(doc, target, info):
                 lst_id += 1
             cpt -= 1
         mem_target = s.get("target")
-        info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "corresp": c,
+        for fi in entry["words"]:
+            initial_form += fi["formeInitiale"] + " "
+        info[cpt]["#lst"+str(lst_id)] = {"libelle": libelle, "forme initiale": initial_form, "corresp": c,
                                          "cat. grammaticale": entry["categorie"], "classe sémantique": entry["classe"],
                      "sous-classe sémantique": entry["sous_classe"], "définition": entry["definition"]}
         cpt += 1
@@ -143,6 +146,7 @@ def parse_syntagmes_definis(doc, target, info):
                namespaces=NS):
         list_t = []
         info[cpt] = {}
+        initial_form = ""
         c = s.get("corresp")
         entry = ph_hash[int(c.split("-")[-1])]
         lst_id = 1
@@ -151,7 +155,9 @@ def parse_syntagmes_definis(doc, target, info):
             while "#phraseo" + str(lst_id) in info[cpt - 1]:
                 lst_id += 1
             cpt -= 1
-        info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "corresp": c, "définition": entry["definition"]["text"]}
+        for fi in entry["words"]:
+            initial_form += fi["formeInitiale"] + " "
+        info[cpt]["#phraseo" + str(lst_id)] = {"libelle": libelle, "forme initiale": initial_form, "corresp": c, "définition": entry["definition"]["text"]}
         mem_target = s.get("target")
         cpt += 1
         fill_target(list_t, s, target)

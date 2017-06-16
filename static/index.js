@@ -131,6 +131,7 @@ $(document).ready(function() {
               }
               info += "<p>"+value+"</p>"
               info += "</div>"
+
             });
         }
         else {
@@ -139,6 +140,9 @@ $(document).ready(function() {
             info += "<div class=\"panel_inactive\">"
 
             $.each(value, function(index2,value2){
+                console.log(index2);
+                        if (index2 != "libelle") {
+
               info += "<button class=\"button_accordion\">" + index2 + "</button>"
               if (cpt > 2) {
                 info += "<div class=\"panel_inactive\">"
@@ -148,6 +152,7 @@ $(document).ready(function() {
               }
               info += "<p>"+value2+"</p>"
               info += "</div>"
+              }
             });
             info += "</div>"
           });
